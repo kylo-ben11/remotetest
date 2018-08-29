@@ -27,9 +27,12 @@
   height: 100%; }
 
 section .pb0 {
-  padding-bottom: 96px !important;
+  padding-bottom: 66px !important;
   padding-top: 56px; }
   section .pb0 .masonry .masonry-item {
-    margin-bottom: 20px; }
+    margin-bottom: 30px; }
+
+.mb32 {
+  font-style: oblique; }
 
 /*# sourceMappingURL=styles.css.map */

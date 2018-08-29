@@ -41,11 +41,14 @@
 }
 
   section .pb0 {
-    padding-bottom: 96px!important;
+    padding-bottom: 66px!important;
     padding-top:56px;
     .masonry {
       .masonry-item {
-        margin-bottom:20px;
+        margin-bottom:30px;
       }
     }
+  }
+.mb32 {
+    font-style: oblique;
   }
