@@ -44,7 +44,9 @@ $post_category = get_theme_mod( 'project_category', true );
 			);
 		?>
 		<a href="<?php echo esc_url( get_the_permalink() ); ?>">
+
 			<?php echo wp_kses( $image, $allowed_tags ); ?>
+		
 		</a>
 
 		<?php if ( isset( $category[0] ) && $post_category ) : ?>

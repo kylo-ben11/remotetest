@@ -10,4 +10,26 @@
 .top-parallax-section .mb32 p {
   font-size: 20px; }
 
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto; }
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+section .pb0 {
+  padding-bottom: 96px !important;
+  padding-top: 56px; }
+  section .pb0 .masonry .masonry-item {
+    margin-bottom: 20px; }
+
 /*# sourceMappingURL=styles.css.map */

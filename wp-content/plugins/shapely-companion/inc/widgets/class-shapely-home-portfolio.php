@@ -103,6 +103,8 @@ class Shapely_Home_Portfolio extends WP_Widget {
 
 							$args_projects = array(
 								'fields' => 'names',
+								'orderby' => 'ID',
+								'order' => 'ASC',
 							);
 							$project_types = wp_get_post_terms( get_the_ID(), 'jetpack-portfolio-type', $args_projects );
 
@@ -110,11 +112,13 @@ class Shapely_Home_Portfolio extends WP_Widget {
 							<div class="col-md-3 col-sm-6 project fadeIn<?php echo $instance['mansonry'] ? ' masonry-item' : ''; ?>">
 								<div class="image-tile inner-title hover-reveal text-center" style="<?php echo esc_attr( $item_style ); ?>">
 									<a href="<?php the_field('portfolio_link'); ?>" title="<?php the_title_attribute(); ?>" target="<?php the_field('link_target');?>">
+
 										<?php
 										if ( $instance['mansonry'] ) {
 											the_post_thumbnail( 'full' );
 										}
 										?>
+
 										<div class="title">
 											<?php
 											the_title( '<h5 class="mb0">', '</h5>' );
