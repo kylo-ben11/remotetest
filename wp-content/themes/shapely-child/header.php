@@ -33,7 +33,9 @@ if ( 1 == $shapely_transparent_header && $shapely_transparent_header_opacity ) {
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700,300,600,400" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<?php wp_head(); ?>
 </head>
 
@@ -80,7 +82,7 @@ if ( 1 == $shapely_transparent_header && $shapely_transparent_header_opacity ) {
 			<div class="header-callout">
 
 <?php if (is_page(49)){
-	echo '<div class="banner">
+	echo '<div class="banner_container"><div class="banner">
 	  <div class="line">
 	    <span>Web Design</span>
 	  </div>
@@ -90,7 +92,7 @@ if ( 1 == $shapely_transparent_header && $shapely_transparent_header_opacity ) {
 	  <div class="line">
 	    <span>2018</span>
 	  </div>
-	</div>';
+	</div></div>';
 } else {
 	echo shapely_top_callout();
 }
