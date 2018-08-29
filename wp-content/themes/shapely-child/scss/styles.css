@@ -1,0 +1,13 @@
+.image-bg .btn.btn-filled {
+  background: #ff6f19;
+  border-color: #ff6f19; }
+  .image-bg .btn.btn-filled:hover {
+    background-color: rgba(255, 111, 25, 0.6);
+    border-color: #ff6f19; }
+
+.top-parallax-section div h1 {
+  font-size: 48px; }
+.top-parallax-section .mb32 p {
+  font-size: 20px; }
+
+/*# sourceMappingURL=styles.css.map */
