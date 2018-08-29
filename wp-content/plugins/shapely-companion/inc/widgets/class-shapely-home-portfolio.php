@@ -109,7 +109,7 @@ class Shapely_Home_Portfolio extends WP_Widget {
 							?>
 							<div class="col-md-3 col-sm-6 project fadeIn<?php echo $instance['mansonry'] ? ' masonry-item' : ''; ?>">
 								<div class="image-tile inner-title hover-reveal text-center" style="<?php echo esc_attr( $item_style ); ?>">
-									<a href="<?php echo esc_url( $permalink ); ?>" title="<?php the_title_attribute(); ?>">
+									<a href="<?php the_field('portfolio_link'); ?>" title="<?php the_title_attribute(); ?>" target="<?php the_field('link_target');?>">
 										<?php
 										if ( $instance['mansonry'] ) {
 											the_post_thumbnail( 'full' );
