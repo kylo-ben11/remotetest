@@ -1,108 +1,6 @@
 
 <?php get_header(); ?>
 <style>
-/* html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{font-size:100%;font:inherit;padding:0;border:0;margin:0;vertical-align:baseline}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}.clear{clear:both}
-.sticky{}.bypostauthor{}.wp-caption{}.wp-caption-text{}.gallery-caption{}.alignright{}.alignleft{}.aligncenter{}
-
-textarea:focus, input:focus{outline: none;}
-*:focus {outline: none;}
-
-body {
-	width: 100%;
-	font-family: Arial;
-	-webkit-font-smoothing: antialiased;
-	line-height: 1.1;
-  background-color: #131313;
-}
-
-
-h1,h2,h3,h4,h5,h6 {
-	margin: 0px;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
-	font-style: normal;
-	line-height: 1.3;
-}
-
-h1 {font-size: 30px;}
-h2 {font-size: 22px;}
-h3 {font-size: 18px;}
-h4 {font-size: 16px;}
-h5 {font-size: 14px;}
-h6 {font-size: 12px;} */
-
-/* .normal {font-weight: 400;}
-.semibold {font-weight: 600;}
-.bold {font-weight: 700;}
-
-p {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
-	line-height: 1.3;
-	font-size: 16px;
-}
-
-b, strong {font-weight: bold;}
-i {font-style: italic;}
-a {
-	text-decoration: none;
-	color: inherit;
-}
-
-input {-webkit-appearance: none;} */
-
-
-/* .wrapper {
-	width: 100%;
-	float: left;
-}
-
-.full-width {
-	width: 100%;
-	float: left;
-	box-sizing: border-box;
-}
-.fixed-width {
-	width: 940px;
-	margin: 0 auto;
-	box-sizing: border-box;
-}
-
-
-
-
-.explore {
-	width: 700px;
-	padding: 0 0 30px 0;
-	margin: 0 auto;
-	text-align: center;
-  clear: both;
-}
-.explore h2 {
-	margin: 10px 0;
-	font-size: 24px;
-	color: #F01E39;
-}
-.explore button {
-	color: #F01E39;
-	border: 1px solid #F01E39;
-	padding: 5px 10px;
-	background: none;
-	cursor: pointer;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
-	font-size: 16px;
-	-moz-transition: .2s ease-in-out;
-  -o-transition: .2s ease-in-out;
-  -webkit-transition: .2s ease-in-out;
-  transition: .2s ease-in-out;
-}
-.explore button:hover,
-.explore button.active {
-	background: #F01E39;
-	color: #131313;
-} */
-
 .console {
 	width: 700px;
 	padding: 0 0 30px 0;
@@ -113,7 +11,6 @@ input {-webkit-appearance: none;} */
 	margin: 10px 0;
 	font-size: 50px;
 	color: #FAC223;
-  border: 2px solid red;
 }
 .console button {
 	color: #FAC223;
@@ -169,10 +66,15 @@ input {-webkit-appearance: none;} */
 	-webkit-transition: 2s ease-in-out;
 	transition: 2s ease-in-out;
 }
-.porg .quote-porg,
-.leiaorgana .quote-leiaorgana,
-.finn .quote-finn,
-.kyloren .quote-kyloren {
+
+.kyloren .quote-kyloren,
+.darthvader .quote-darthvader,
+.stormtrooper .quote-stormtrooper,
+.bobafett .quote-bobafett,
+.darthmaul .quote-darthmaul,
+.r2d2 .quote-r2d2,
+.yoda .quote-yoda,
+.chewbacca .quote-chewbacca {
 	visibility: visible;
 	opacity: 1;
 }
@@ -261,230 +163,6 @@ input {-webkit-appearance: none;} */
 	75% {opacity: 0.8;}
 }
 
-
-
-
-
-
-/* Porg */
-
-.porg .t-1 {-webkit-clip-path: polygon(50% 13%, 64% 21%, 50% 21%);}
-.porg .t-2 {-webkit-clip-path: polygon(50% 13%, 36% 21%, 50% 21%);}
-.porg .t-3 {-webkit-clip-path: polygon(50% 24%, 64% 21%, 36% 21%);}
-.porg .t-4 {-webkit-clip-path: polygon(50% 24%, 64% 21%, 60% 33%);}
-.porg .t-5 {-webkit-clip-path: polygon(50% 24%, 36% 21%, 40% 33%);}
-
-.porg .t-6 {-webkit-clip-path: polygon(75% 50%, 64% 21%, 60% 33%);}
-.porg .t-7 {-webkit-clip-path: polygon(25% 50%, 36% 21%, 40% 33%);}
-.porg .t-8 {-webkit-clip-path: polygon(75% 50%, 67% 30%, 73% 38%);}
-.porg .t-9 {-webkit-clip-path: polygon(25% 50%, 33% 30%, 27% 38%);}
-.porg .t-10 {-webkit-clip-path: polygon(75% 50%, 67% 41%, 70% 58%);}
-
-.porg .t-11 {-webkit-clip-path: polygon(25% 50%, 33% 41%, 30% 58%);}
-.porg .t-12 {-webkit-clip-path: polygon(65% 68%, 67% 41%, 70% 58%);}
-.porg .t-13 {-webkit-clip-path: polygon(35% 68%, 33% 41%, 30% 58%);}
-.porg .t-14 {-webkit-clip-path: polygon(50% 24%, 65% 68%, 35% 68%);}
-.porg .t-15 {-webkit-clip-path: polygon(50% 24%, 65% 68%, 68% 40%);}
-
-.porg .t-16 {-webkit-clip-path: polygon(50% 24%, 35% 68%, 32% 40%);}
-.porg .t-17 {-webkit-clip-path: polygon(50% 73%, 65% 68%, 35% 68%);}
-.porg .t-18 {-webkit-clip-path: polygon(64% 85%, 58% 79%, 52% 85%);}
-.porg .t-19 {-webkit-clip-path: polygon(36% 85%, 42% 79%, 48% 85%);}
-.porg .t-20 {-webkit-clip-path: polygon(57% 70%, 58% 80%, 60% 69%);}
-
-.porg .t-21 {-webkit-clip-path: polygon(43% 70%, 42% 80%, 40% 69%);}
-.porg .t-22 {-webkit-clip-path: polygon(60% 81%, 58% 80%, 60% 69%);}
-.porg .t-23 {-webkit-clip-path: polygon(40% 81%, 42% 80%, 40% 69%);}
-.porg .t-24 {-webkit-clip-path: polygon(52% 24%, 63% 22%, 59% 31%);}
-.porg .t-25 {-webkit-clip-path: polygon(48% 24%, 37% 22%, 41% 31%);}
-
-.porg .t-26 {-webkit-clip-path: polygon(55% 25%, 61% 24%, 58.5% 29%);}
-.porg .t-27 {-webkit-clip-path: polygon(45% 25%, 39% 24%, 41.5% 29%);}
-.porg .t-28 {-webkit-clip-path: polygon(50% 30%, 55% 34%, 50% 32%);}
-.porg .t-29 {-webkit-clip-path: polygon(50% 30%, 45% 34%, 50% 32%);}
-.porg .t-30 {-webkit-clip-path: polygon(50% 32%, 53% 33%, 47% 33%);}
-
-.porg .t-1,
-.porg .t-2,
-.porg .t-3,
-.porg .t-4,
-.porg .t-5 {background-color: #C5865B;}
-
-.porg .t-6,
-.porg .t-7,
-.porg .t-8,
-.porg .t-9,
-.porg .t-10,
-.porg .t-11,
-.porg .t-12,
-.porg .t-13 {background-color: #9E8A78;}
-
-.porg .t-14,
-.porg .t-15,
-.porg .t-16,
-.porg .t-17 {background-color: #EFE9D2;}
-
-.porg .t-18,
-.porg .t-19,
-.porg .t-20,
-.porg .t-21,
-.porg .t-22,
-.porg .t-23 {background-color: #EE8F31;}
-
-.porg .t-24,
-.porg .t-25,
-.porg .t-28,
-.porg .t-29,
-.porg .t-30 {background-color: #131313;}
-
-.porg .t-26,
-.porg .t-27 {background-color: #FFFFFF;}
-
-
-/* Leia Organa */
-
-.leiaorgana .t-1 {-webkit-clip-path: polygon(50% 35%, 41% 19%, 59% 19%);}
-.leiaorgana .t-2 {-webkit-clip-path: polygon(50% 35%, 68% 29%, 59% 19%);}
-.leiaorgana .t-3 {-webkit-clip-path: polygon(50% 35%, 32% 29%, 41% 19%);}
-.leiaorgana .t-4 {-webkit-clip-path: polygon(50% 35%, 68% 29%, 68% 45%);}
-.leiaorgana .t-5 {-webkit-clip-path: polygon(50% 35%, 32% 29%, 32% 45%);}
-
-.leiaorgana .t-6 {-webkit-clip-path: polygon(75% 28%, 68% 29%, 68% 70%);}
-.leiaorgana .t-7 {-webkit-clip-path: polygon(25% 28%, 32% 29%, 32% 70%);}
-.leiaorgana .t-8 {-webkit-clip-path: polygon(75% 28%, 76% 66%, 68% 70%);}
-.leiaorgana .t-9 {-webkit-clip-path: polygon(25% 28%, 24% 66%, 32% 70%);}
-.leiaorgana .t-10 {-webkit-clip-path: polygon(75% 28%, 76% 66%, 80% 33%);}
-
-.leiaorgana .t-11 {-webkit-clip-path: polygon(25% 28%, 24% 66%, 20% 33%);}
-.leiaorgana .t-12 {-webkit-clip-path: polygon(83% 50%, 77% 57%, 79% 41%);}
-.leiaorgana .t-13 {-webkit-clip-path: polygon(17% 50%, 23% 57%, 21% 41%);}
-.leiaorgana .t-14 {-webkit-clip-path: polygon(68% 70%, 65% 69%, 68% 53%);}
-.leiaorgana .t-15 {-webkit-clip-path: polygon(32% 70%, 35% 69%, 32% 53%);}
-
-.leiaorgana .t-16 {-webkit-clip-path: polygon(50% 35%, 32% 45%, 68% 45%);}
-.leiaorgana .t-17 {-webkit-clip-path: polygon(50% 81%, 32% 45%, 68% 45%);}
-.leiaorgana .t-18 {-webkit-clip-path: polygon(68% 54%, 65% 69%, 68% 45%);}
-.leiaorgana .t-19 {-webkit-clip-path: polygon(32% 54%, 35% 69%, 32% 45%);}
-.leiaorgana .t-20 {-webkit-clip-path: polygon(50% 81%, 65% 69%, 68% 45%);}
-
-.leiaorgana .t-21 {-webkit-clip-path: polygon(50% 81%, 35% 69%, 32% 45%);}
-.leiaorgana .t-22 {-webkit-clip-path: polygon(50% 81%, 65% 69%, 60% 76%);}
-.leiaorgana .t-23 {-webkit-clip-path: polygon(50% 81%, 35% 69%, 40% 76%);}
-.leiaorgana .t-24 {-webkit-clip-path: polygon(58% 54%, 62% 52%, 58% 50%);}
-.leiaorgana .t-25 {-webkit-clip-path: polygon(42% 54%, 38% 52%, 42% 50%);}
-
-.leiaorgana .t-26 {-webkit-clip-path: polygon(58% 54%, 53% 53%, 58% 50%);}
-.leiaorgana .t-27 {-webkit-clip-path: polygon(42% 54%, 47% 53%, 42% 50%);}
-.leiaorgana .t-28 {-webkit-clip-path: polygon(51% 70.5%, 50% 71%, 56% 71%);}
-.leiaorgana .t-29 {-webkit-clip-path: polygon(49% 70.5%, 50% 71%, 44% 71%);}
-.leiaorgana .t-30 {-webkit-clip-path: polygon(50% 73%, 44% 71%, 56% 71%);}
-
-.leiaorgana .t-1,
-.leiaorgana .t-2,
-.leiaorgana .t-3,
-.leiaorgana .t-4,
-.leiaorgana .t-5,
-.leiaorgana .t-6,
-.leiaorgana .t-7,
-.leiaorgana .t-8,
-.leiaorgana .t-9,
-.leiaorgana .t-10,
-.leiaorgana .t-11,
-.leiaorgana .t-12,
-.leiaorgana .t-13,
-.leiaorgana .t-14,
-.leiaorgana .t-15 {background-color: #492D1F;}
-
-.leiaorgana .t-16,
-.leiaorgana .t-17,
-.leiaorgana .t-18,
-.leiaorgana .t-19,
-.leiaorgana .t-20,
-.leiaorgana .t-21,
-.leiaorgana .t-22,
-.leiaorgana .t-23 {background-color: #F0B1A1;}
-
-.leiaorgana .t-24,
-.leiaorgana .t-25,
-.leiaorgana .t-26,
-.leiaorgana .t-27 {background-color: #FFFFFF;}
-
-.leiaorgana .t-28,
-.leiaorgana .t-29,
-.leiaorgana .t-30 {background-color: #B80415;}
-
-/* Finn */
-
-.finn .t-1 {-webkit-clip-path: polygon(50% 17%, 36% 35%, 64% 35%);}
-.finn .t-2 {-webkit-clip-path: polygon(50% 17%, 60% 20%, 64% 35%);}
-.finn .t-3 {-webkit-clip-path: polygon(50% 17%, 40% 20%, 36% 35%);}
-.finn .t-4 {-webkit-clip-path: polygon(67% 25%, 60% 20%, 64% 35%);}
-.finn .t-5 {-webkit-clip-path: polygon(33% 25%, 40% 20%, 36% 35%);}
-
-.finn .t-6 {-webkit-clip-path: polygon(67% 25%, 70% 35%, 64% 35%);}
-.finn .t-7 {-webkit-clip-path: polygon(33% 25%, 30% 35%, 36% 35%);}
-.finn .t-8 {-webkit-clip-path: polygon(65% 43%, 70% 35%, 64% 35%);}
-.finn .t-9 {-webkit-clip-path: polygon(35% 43%, 30% 35%, 36% 35%);}
-.finn .t-10 {-webkit-clip-path: polygon(65% 43%, 70% 35%, 68% 49%);}
-
-.finn .t-11 {-webkit-clip-path: polygon(35% 43%, 30% 35%, 32% 49%);}
-.finn .t-12 {-webkit-clip-path: polygon(50% 36%, 36% 35%, 64% 35%);}
-.finn .t-13 {-webkit-clip-path: polygon(50% 36%, 44% 82%, 56% 82%);}
-.finn .t-14 {-webkit-clip-path: polygon(50% 36%, 64% 35%, 56% 82%);}
-.finn .t-15 {-webkit-clip-path: polygon(50% 36%, 36% 35%, 44% 82%);}
-
-.finn .t-16 {-webkit-clip-path: polygon(68% 61%, 64% 35%, 56% 82%);}
-.finn .t-17 {-webkit-clip-path: polygon(32% 61%, 36% 35%, 44% 82%);}
-.finn .t-18 {-webkit-clip-path: polygon(68% 61%, 65% 72%, 56% 82%);}
-.finn .t-19 {-webkit-clip-path: polygon(32% 61%, 35% 72%, 44% 82%);}
-.finn .t-20 {-webkit-clip-path: polygon(68% 61%, 65% 43%, 68% 49%);}
-
-.finn .t-21 {-webkit-clip-path: polygon(32% 61%, 35% 43%, 32% 49%);}
-.finn .t-22 {-webkit-clip-path: polygon(68% 61%, 71% 47%, 68% 49%);}
-.finn .t-23 {-webkit-clip-path: polygon(32% 61%, 29% 47%, 32% 49%);}
-.finn .t-24 {-webkit-clip-path: polygon(70% 45%, 71% 47%, 68% 49%);}
-.finn .t-25 {-webkit-clip-path: polygon(30% 45%, 29% 47%, 32% 49%);}
-
-.finn .t-26 {-webkit-clip-path: polygon(54% 50%, 59% 48%, 58% 52%);}
-.finn .t-27 {-webkit-clip-path: polygon(46% 50%, 41% 48%, 42% 52%);}
-.finn .t-28 {-webkit-clip-path: polygon(63% 50%, 59% 48%, 58% 52%);}
-.finn .t-29 {-webkit-clip-path: polygon(37% 50%, 41% 48%, 42% 52%);}
-.finn .t-30 {-webkit-clip-path: polygon(50% 43%, 44% 42%, 56% 42%);}
-
-.finn .t-1,
-.finn .t-2,
-.finn .t-3,
-.finn .t-4,
-.finn .t-5,
-.finn .t-6,
-.finn .t-7,
-.finn .t-8,
-.finn .t-9,
-.finn .t-10,
-.finn .t-11,
-.finn .t-12 {background-color: #000000;}
-
-.finn .t-13,
-.finn .t-14,
-.finn .t-15,
-.finn .t-16,
-.finn .t-17,
-.finn .t-18,
-.finn .t-19,
-.finn .t-20,
-.finn .t-21,
-.finn .t-22,
-.finn .t-23,
-.finn .t-24,
-.finn .t-25 {background-color: #AC5D32;}
-
-.finn .t-26,
-.finn .t-27,
-.finn .t-28,
-.finn .t-29 {background-color: #FFFFFF;}
-
-.finn .t-30 {background-color: #93481F;}
-
 /* Kylo Ren */
 
 .kyloren .t-1 {-webkit-clip-path: polygon(50% 15%, 50% 35%, 66% 26%);}
@@ -557,19 +235,546 @@ input {-webkit-appearance: none;} */
 .kyloren .t-28,
 .kyloren .t-29,
 .kyloren .t-30 {background-color: #C7C8C8;}
+
+/* Darth Vader */
+
+.darthvader .t-1 {-webkit-clip-path: polygon(33% 12%, 50% 7%, 67% 12%);}
+.darthvader .t-2 {-webkit-clip-path: polygon(33% 12%, 50% 56%, 67% 12%);}
+.darthvader .t-3 {-webkit-clip-path: polygon(33% 12%, 23% 40%, 44% 40%);}
+.darthvader .t-4 {-webkit-clip-path: polygon(67% 12%, 56% 40%, 77% 40%);}
+.darthvader .t-5 {-webkit-clip-path: polygon(23% 40%, 5% 75%, 14% 83%);}
+
+.darthvader .t-6 {-webkit-clip-path: polygon(77% 40%, 95% 75%, 86% 83%);}
+.darthvader .t-7 {-webkit-clip-path: polygon(23% 40%, 19% 59%, 38% 40%);}
+.darthvader .t-8 {-webkit-clip-path: polygon(62% 40%, 81% 59%, 77% 40%);}
+.darthvader .t-9 {-webkit-clip-path: polygon(18% 59%, 32% 72%, 32% 46%);}
+.darthvader .t-10 {-webkit-clip-path: polygon(82% 59%, 68% 46%, 68% 72%);}
+
+.darthvader .t-11 {-webkit-clip-path: polygon(18% 59%, 15% 77%, 32% 72%);}
+.darthvader .t-12 {-webkit-clip-path: polygon(82% 59%, 85% 77%, 68% 72%);}
+.darthvader .t-13 {-webkit-clip-path: polygon(38% 40%, 50% 56%, 44% 40%);}
+.darthvader .t-14 {-webkit-clip-path: polygon(56% 40%, 50% 56%, 62% 40%);}
+.darthvader .t-15 {-webkit-clip-path: polygon(38% 40%, 32% 46%, 48% 53%);}
+
+.darthvader .t-16 {-webkit-clip-path: polygon(62% 40%, 52% 53%, 68% 46%);}
+.darthvader .t-17 {-webkit-clip-path: polygon(32% 46%, 32% 63%, 50% 56%);}
+.darthvader .t-18 {-webkit-clip-path: polygon(68% 46%, 50% 56%, 68% 63%);}
+.darthvader .t-19 {-webkit-clip-path: polygon(32% 46%, 50% 56%, 48% 53%);}
+.darthvader .t-20 {-webkit-clip-path: polygon(68% 46%, 52% 53%, 50% 56%);}
+
+.darthvader .t-21 {-webkit-clip-path: polygon(32% 63%, 50% 56%, 50% 63%);}
+.darthvader .t-22 {-webkit-clip-path: polygon(68% 63%, 50% 56%, 50% 63%);}
+.darthvader .t-23 {-webkit-clip-path: polygon(32% 63%, 50% 63%, 32% 72%);}
+.darthvader .t-24 {-webkit-clip-path: polygon(68% 63%, 50% 63%, 68% 72%);}
+.darthvader .t-25 {-webkit-clip-path: polygon(50% 63%, 35% 82%, 65% 82%);}
+
+.darthvader .t-26 {-webkit-clip-path: polygon(32% 72%, 35% 82%, 50% 63%);}
+.darthvader .t-27 {-webkit-clip-path: polygon(68% 72%, 65% 82%, 50% 63%);}
+.darthvader .t-28 {-webkit-clip-path: polygon(65% 82%, 50% 91%, 35% 82%);}
+.darthvader .t-29 {-webkit-clip-path: polygon(45% 82%, 48% 82%, 47% 67%);}
+.darthvader .t-30 {-webkit-clip-path: polygon(55% 82%, 52% 82%, 53% 67%);}
+
+
+.darthvader .t-2,
+.darthvader .t-15,
+.darthvader .t-16,
+.darthvader .t-26,
+.darthvader .t-27 {background-color: #565656;}
+
+.darthvader .t-1,
+.darthvader .t-3,
+.darthvader .t-4,
+.darthvader .t-6,
+.darthvader .t-7,
+.darthvader .t-8,
+.darthvader .t-11,
+.darthvader .t-13,
+.darthvader .t-14,
+.darthvader .t-19,
+.darthvader .t-20,
+.darthvader .t-21,
+.darthvader .t-22,
+.darthvader .t-23,
+.darthvader .t-24,
+.darthvader .t-28,
+.darthvader .t-29,
+.darthvader .t-30 {background-color: #424242;}
+
+.darthvader .t-5,
+.darthvader .t-9,
+.darthvader .t-10,
+.darthvader .t-12,
+.darthvader .t-17,
+.darthvader .t-18,
+.darthvader .t-25 {background-color: #1b1b1b;}
+
+/* Stormtrooper */
+
+.stormtrooper .t-1 {-webkit-clip-path: polygon(32% 12%, 50% 8%, 68% 12%);}
+.stormtrooper .t-2 {-webkit-clip-path: polygon(32% 12%, 50% 32%, 68% 12%);}
+.stormtrooper .t-3 {-webkit-clip-path: polygon(32% 12%, 24% 32%, 50% 32%);}
+.stormtrooper .t-4 {-webkit-clip-path: polygon(68% 12%, 50% 32%, 76% 32%);}
+.stormtrooper .t-5 {-webkit-clip-path: polygon(21% 32%, 21% 36%, 79% 32%);}
+
+.stormtrooper .t-6 {-webkit-clip-path: polygon(21% 36%, 79% 32%, 79% 36%);}
+.stormtrooper .t-7 {-webkit-clip-path: polygon(23% 36%, 23% 59%, 50% 36%);}
+.stormtrooper .t-8 {-webkit-clip-path: polygon(50% 36%, 77% 59%, 77% 36%);}
+.stormtrooper .t-9 {-webkit-clip-path: polygon(25% 38%, 29% 47%, 44% 38%);}
+.stormtrooper .t-10 {-webkit-clip-path: polygon(56% 38%, 75% 38%, 72% 47%);}
+
+.stormtrooper .t-11 {-webkit-clip-path: polygon(19% 37%, 23% 37%, 19% 55%);}
+.stormtrooper .t-12 {-webkit-clip-path: polygon(23% 37%, 19% 55%, 23% 55%);}
+.stormtrooper .t-13 {-webkit-clip-path: polygon(77% 37%, 77% 55%, 81% 37%);}
+.stormtrooper .t-14 {-webkit-clip-path: polygon(81% 37%, 77% 55%, 81% 55%);}
+.stormtrooper .t-15 {-webkit-clip-path: polygon(50% 36%, 23% 59%, 77% 59%);}
+
+.stormtrooper .t-16 {-webkit-clip-path: polygon(50% 83%, 28% 59%, 72% 59%);}
+.stormtrooper .t-17 {-webkit-clip-path: polygon(23% 59%, 20% 76%, 44% 59%);}
+.stormtrooper .t-18 {-webkit-clip-path: polygon(77% 59%, 56% 59%, 80% 76%);}
+.stormtrooper .t-19 {-webkit-clip-path: polygon(50% 53%, 35% 65%, 50% 59%);}
+.stormtrooper .t-20 {-webkit-clip-path: polygon(50% 53%, 50% 59%, 65% 65%);}
+
+.stormtrooper .t-21 {-webkit-clip-path: polygon(20% 76%, 48% 80%, 35% 65%);}
+.stormtrooper .t-22 {-webkit-clip-path: polygon(80% 76%, 52% 80%, 65% 65%);}
+.stormtrooper .t-23 {-webkit-clip-path: polygon(20% 76%, 45% 86%, 45% 79%);}
+.stormtrooper .t-24 {-webkit-clip-path: polygon(80% 76%, 55% 86%, 55% 79%);}
+.stormtrooper .t-25 {-webkit-clip-path: polygon(20% 76%, 35% 93%, 45% 86%);}
+
+.stormtrooper .t-26 {-webkit-clip-path: polygon(80% 76%, 65% 93%, 55% 86%);}
+.stormtrooper .t-27 {-webkit-clip-path: polygon(45% 78%, 45% 88%, 55% 78%);}
+.stormtrooper .t-28 {-webkit-clip-path: polygon(55% 78%, 55% 88%, 45% 88%);}
+.stormtrooper .t-29 {-webkit-clip-path: polygon(30% 86%, 35% 91%, 43% 86%);}
+.stormtrooper .t-30 {-webkit-clip-path: polygon(57% 86%, 65% 91%, 70% 86%);}
+
+
+.stormtrooper .t-1,
+.stormtrooper .t-4,
+.stormtrooper .t-15,
+.stormtrooper .t-21,
+.stormtrooper .t-22 {background-color: #F5F5F5;}
+
+.stormtrooper .t-2,
+.stormtrooper .t-7,
+.stormtrooper .t-8,
+.stormtrooper .t-16,
+.stormtrooper .t-23,
+.stormtrooper .t-26 {background-color: #e8e8e8;}
+
+.stormtrooper .t-3,
+.stormtrooper .t-17,
+.stormtrooper .t-18,
+.stormtrooper .t-24,
+.stormtrooper .t-25 {background-color: #dcdcdc;}
+
+.stormtrooper .t-5,
+.stormtrooper .t-12,
+.stormtrooper .t-13,
+.stormtrooper .t-19,
+.stormtrooper .t-27,
+.stormtrooper .t-29,
+.stormtrooper .t-30 {background-color: #585858;}
+
+.stormtrooper .t-6,
+.stormtrooper .t-9,
+.stormtrooper .t-10,
+.stormtrooper .t-11,
+.stormtrooper .t-14,
+.stormtrooper .t-20,
+.stormtrooper .t-28 {background-color: #252525;}
+
+/* Boba Fett */
+
+.bobafett .t-1 {-webkit-clip-path: polygon(50% 24%, 33% 29%, 67% 29%);}
+.bobafett .t-2 {-webkit-clip-path: polygon(50% 48%, 33% 29%, 67% 29%);}
+.bobafett .t-3 {-webkit-clip-path: polygon(33% 29%, 25% 48%, 50% 48%);}
+.bobafett .t-4 {-webkit-clip-path: polygon(67% 29%, 75% 48%, 50% 48%);}
+.bobafett .t-5 {-webkit-clip-path: polygon(25% 48%, 26% 50%, 74% 50%);}
+
+.bobafett .t-6 {-webkit-clip-path: polygon(75% 48%, 74% 50%, 25% 48%);}
+.bobafett .t-7 {-webkit-clip-path: polygon(25% 48%, 24% 56%, 30% 59%);}
+.bobafett .t-8 {-webkit-clip-path: polygon(75% 48%, 76% 56%, 70% 59%);}
+.bobafett .t-9 {-webkit-clip-path: polygon(26% 50%, 27% 53%, 45% 57%);}
+.bobafett .t-10 {-webkit-clip-path: polygon(74% 50%, 73% 53%, 55% 57%);}
+
+.bobafett .t-11 {-webkit-clip-path: polygon(26% 50%, 74% 50%, 50% 59%);}
+.bobafett .t-12 {-webkit-clip-path: polygon(27% 53%, 30% 59%, 45% 57%);}
+.bobafett .t-13 {-webkit-clip-path: polygon(73% 53%, 70% 59%, 55% 57%);}
+.bobafett .t-14 {-webkit-clip-path: polygon(30% 59%, 45% 66%, 45% 57%);}
+.bobafett .t-15 {-webkit-clip-path: polygon(70% 59%, 55% 66%, 55% 57%);}
+
+.bobafett .t-16 {-webkit-clip-path: polygon(45% 57%, 45% 95%, 50% 59%);}
+.bobafett .t-17 {-webkit-clip-path: polygon(55% 57%, 55% 95%, 50% 59%);}
+.bobafett .t-18 {-webkit-clip-path: polygon(45% 95%, 50% 59%, 55% 95%);}
+.bobafett .t-19 {-webkit-clip-path: polygon(35% 61%, 45% 95%, 45% 66%);}
+.bobafett .t-20 {-webkit-clip-path: polygon(65% 61%, 55% 95%, 55% 66%);}
+
+.bobafett .t-21 {-webkit-clip-path: polygon(24% 56%, 21% 82%, 35% 61%);}
+.bobafett .t-22 {-webkit-clip-path: polygon(76% 56%, 79% 82%, 65% 61%);}
+.bobafett .t-23 {-webkit-clip-path: polygon(75% 48%, 81% 81%, 79% 82%);}
+.bobafett .t-24 {-webkit-clip-path: polygon(35% 61%, 21% 82%, 45% 95%);}
+.bobafett .t-25 {-webkit-clip-path: polygon(65% 61%, 79% 82%, 55% 95%);}
+
+.bobafett .t-26 {-webkit-clip-path: polygon(21% 43%, 26% 43%, 21% 82%);}
+.bobafett .t-27 {-webkit-clip-path: polygon(22% 43%, 25% 12%, 24% 43%);}
+.bobafett .t-28 {-webkit-clip-path: polygon(24% 43%, 25% 12%, 27% 11%);}
+.bobafett .t-29 {-webkit-clip-path: polygon(29% 10%, 35% 11%, 35% 7%);}
+.bobafett .t-30 {-webkit-clip-path: polygon(25% 12%, 23% 6%, 38% 6%);}
+
+
+
+.bobafett .t-1,
+.bobafett .t-2,
+.bobafett .t-3,
+.bobafett .t-4,
+.bobafett .t-23,
+.bobafett .t-24,
+.bobafett .t-25 {background-color: #31563c;}
+
+.bobafett .t-5,
+.bobafett .t-6,
+.bobafett .t-7,
+.bobafett .t-8,
+.bobafett .t-12,
+.bobafett .t-13,
+.bobafett .t-14,
+.bobafett .t-15,
+.bobafett .t-19,
+.bobafett .t-20 {background-color: #82292b;}
+
+.bobafett .t-9,
+.bobafett .t-10,
+.bobafett .t-11,
+.bobafett .t-16,
+.bobafett .t-17,
+.bobafett .t-18,
+.bobafett .t-21,
+.bobafett .t-22,
+.bobafett .t-30 {background-color: #1b1b1b;}
+
+.bobafett .t-26 {background-color: #b3a24a;}
+
+.bobafett .t-27,
+.bobafett .t-28,
+.bobafett .t-29 {background-color: #d3d3d5;}
+
+/* R2D2 */
+
+.r2d2 .t-1 {-webkit-clip-path: polygon(50% 29%, 34% 34%, 66% 34%);}
+.r2d2 .t-2 {-webkit-clip-path: polygon(16% 67%, 16% 71%, 84% 67%);}
+.r2d2 .t-3 {-webkit-clip-path: polygon(84% 67%, 84% 71%, 16% 71%);}
+.r2d2 .t-4 {-webkit-clip-path: polygon(16% 63%, 16% 67%, 84% 63%);}
+.r2d2 .t-5 {-webkit-clip-path: polygon(84% 63%, 84% 67%, 16% 67%);}
+
+.r2d2 .t-6 {-webkit-clip-path: polygon(16% 59%, 16% 63%, 84% 59%);}
+.r2d2 .t-7 {-webkit-clip-path: polygon(84% 59%, 84% 63%, 16% 63%);}
+.r2d2 .t-8 {-webkit-clip-path: polygon(16% 59%, 22% 46%, 25% 59%);}
+.r2d2 .t-9 {-webkit-clip-path: polygon(22% 46%, 25% 46%, 25% 59%);}
+.r2d2 .t-10 {-webkit-clip-path: polygon(84% 59%, 78% 46%, 75% 59%);}
+
+.r2d2 .t-11 {-webkit-clip-path: polygon(78% 46%, 75% 46%, 75% 59%);}
+.r2d2 .t-12 {-webkit-clip-path: polygon(22% 46%, 34% 34%, 34% 46%);}
+.r2d2 .t-13 {-webkit-clip-path: polygon(78% 46%, 66% 34%, 66% 46%);}
+.r2d2 .t-14 {-webkit-clip-path: polygon(25% 46%, 30% 46%, 25% 59%);}
+.r2d2 .t-15 {-webkit-clip-path: polygon(30% 59%, 30% 46%, 25% 59%);}
+
+.r2d2 .t-16 {-webkit-clip-path: polygon(75% 46%, 70% 46%, 75% 59%);}
+.r2d2 .t-17 {-webkit-clip-path: polygon(70% 59%, 70% 46%, 75% 59%);}
+.r2d2 .t-18 {-webkit-clip-path: polygon(30% 46%, 30% 59%, 34% 59%);}
+.r2d2 .t-19 {-webkit-clip-path: polygon(30% 46%, 34% 46%, 34% 59%);}
+.r2d2 .t-20 {-webkit-clip-path: polygon(70% 46%, 70% 59%, 66% 59%);}
+
+.r2d2 .t-21 {-webkit-clip-path: polygon(70% 46%, 66% 46%, 66% 59%);}
+.r2d2 .t-22 {-webkit-clip-path: polygon(34% 34%, 34% 59%, 66% 34%);}
+.r2d2 .t-23 {-webkit-clip-path: polygon(66% 59%, 34% 59%, 66% 34%);}
+.r2d2 .t-24 {-webkit-clip-path: polygon(42% 37%, 38% 59%, 54% 37%);}
+.r2d2 .t-25 {-webkit-clip-path: polygon(38% 59%, 54% 37%, 58% 59%);}
+
+.r2d2 .t-26 {-webkit-clip-path: polygon(48% 38%, 43% 43%, 53% 43%);}
+.r2d2 .t-27 {-webkit-clip-path: polygon(48% 48%, 43% 43%, 53% 43%);}
+.r2d2 .t-28 {-webkit-clip-path: polygon(59% 54%, 65% 54%, 62% 58%);}
+.r2d2 .t-29 {-webkit-clip-path: polygon(49% 54%, 55% 54%, 52% 58%);}
+.r2d2 .t-30 {-webkit-clip-path: polygon(50% 29%, 49% 34%, 51% 34%);}
+
+
+.r2d2 .t-1,
+.r2d2 .t-4,
+.r2d2 .t-5,
+.r2d2 .t-8,
+.r2d2 .t-9,
+.r2d2 .t-10,
+.r2d2 .t-11,
+.r2d2 .t-18,
+.r2d2 .t-19,
+.r2d2 .t-20,
+.r2d2 .t-21,
+.r2d2 .t-24,
+.r2d2 .t-25 {background-color: #225c92;}
+
+.r2d2 .t-2,
+.r2d2 .t-3,
+.r2d2 .t-6,
+.r2d2 .t-7,
+.r2d2 .t-12,
+.r2d2 .t-13,
+.r2d2 .t-14,
+.r2d2 .t-15,
+.r2d2 .t-16,
+.r2d2 .t-17,
+.r2d2 .t-22,
+.r2d2 .t-23,
+.r2d2 .t-30 {background-color: #c8c8c8;}
+
+.r2d2 .t-26,
+.r2d2 .t-27,
+.r2d2 .t-28 {background-color: #313841;}
+
+.r2d2 .t-29 {background-color: #be0c19;}
+
+/* Darth Maul */
+
+.darthmaul .t-1 {-webkit-clip-path: polygon(50% 33%, 38% 17%, 62% 17%);}
+.darthmaul .t-2 {-webkit-clip-path: polygon(38% 17%, 33% 31%, 50% 33%);}
+.darthmaul .t-3 {-webkit-clip-path: polygon(62% 17%, 67% 31%, 50% 33%);}
+.darthmaul .t-4 {-webkit-clip-path: polygon(33% 31%, 50% 50%, 50% 33%);}
+.darthmaul .t-5 {-webkit-clip-path: polygon(67% 31%, 50% 50%, 50% 33%);}
+
+.darthmaul .t-6 {-webkit-clip-path: polygon(33% 31%, 47% 46%, 37% 61%);}
+.darthmaul .t-7 {-webkit-clip-path: polygon(67% 31%, 53% 46%, 63% 61%);}
+.darthmaul .t-8 {-webkit-clip-path: polygon(50% 12%, 46% 20%, 54% 20%);}
+.darthmaul .t-9 {-webkit-clip-path: polygon(38% 17%, 34% 10%, 34% 22%);}
+.darthmaul .t-10 {-webkit-clip-path: polygon(62% 17%, 66% 10%, 66% 22%);}
+
+.darthmaul .t-11 {-webkit-clip-path: polygon(33% 31%, 26% 50%, 37% 61%);}
+.darthmaul .t-12 {-webkit-clip-path: polygon(67% 31%, 74% 50%, 63% 61%);}
+.darthmaul .t-13 {-webkit-clip-path: polygon(32% 25%, 27% 30%, 25% 23%);}
+.darthmaul .t-14 {-webkit-clip-path: polygon(68% 25%, 73% 30%, 75% 23%);}
+.darthmaul .t-15 {-webkit-clip-path: polygon(38% 17%, 27% 30%, 26% 50%);}
+
+.darthmaul .t-16 {-webkit-clip-path: polygon(62% 17%, 73% 30%, 74% 50%);}
+.darthmaul .t-17 {-webkit-clip-path: polygon(26% 50%, 27% 60%, 33% 67%);}
+.darthmaul .t-18 {-webkit-clip-path: polygon(74% 50%, 73% 60%, 67% 67%);}
+.darthmaul .t-19 {-webkit-clip-path: polygon(26% 50%, 37% 61%, 33% 67%);}
+.darthmaul .t-20 {-webkit-clip-path: polygon(74% 50%, 63% 61%, 67% 67%);}
+
+.darthmaul .t-21 {-webkit-clip-path: polygon(27% 60%, 31% 76%, 41% 76%);}
+.darthmaul .t-22 {-webkit-clip-path: polygon(73% 60%, 69% 76%, 59% 76%);}
+.darthmaul .t-23 {-webkit-clip-path: polygon(31% 76%, 40% 89%, 50% 76%);}
+.darthmaul .t-24 {-webkit-clip-path: polygon(69% 76%, 60% 89%, 50% 76%);}
+.darthmaul .t-25 {-webkit-clip-path: polygon(50% 76%, 40% 89%, 60% 89%);}
+
+.darthmaul .t-26 {-webkit-clip-path: polygon(33% 67%, 50% 41%, 41% 76%);}
+.darthmaul .t-27 {-webkit-clip-path: polygon(67% 67%, 50% 41%, 59% 76%);}
+.darthmaul .t-28 {-webkit-clip-path: polygon(50% 41%, 41% 76%, 59% 76%);}
+.darthmaul .t-29 {-webkit-clip-path: polygon(36% 48%, 45% 48%, 42% 50%);}
+.darthmaul .t-30 {-webkit-clip-path: polygon(64% 48%, 55% 48%, 58% 50%);}
+
+
+
+
+.darthmaul .t-1,
+.darthmaul .t-6,
+.darthmaul .t-7,
+.darthmaul .t-15,
+.darthmaul .t-16,
+.darthmaul .t-19,
+.darthmaul .t-20,
+.darthmaul .t-21,
+.darthmaul .t-22,
+.darthmaul .t-23,
+.darthmaul .t-24,
+.darthmaul .t-28 {background-color: #1d1d1b;}
+
+.darthmaul .t-2,
+.darthmaul .t-3,
+.darthmaul .t-4,
+.darthmaul .t-5,
+.darthmaul .t-11,
+.darthmaul .t-12,
+.darthmaul .t-17,
+.darthmaul .t-18,
+.darthmaul .t-25,
+.darthmaul .t-26,
+.darthmaul .t-27 {background-color: #d8181d;}
+
+.darthmaul .t-8,
+.darthmaul .t-9,
+.darthmaul .t-10,
+.darthmaul .t-13,
+.darthmaul .t-14 {background-color: #d8a749;}
+
+
+.darthmaul .t-29,
+.darthmaul .t-30 {background-color: #FFFFFF;}
+
+/* Yoda */
+
+.yoda .t-1 {-webkit-clip-path: polygon(50% 27%, 41% 30%, 59% 30%);}
+.yoda .t-2 {-webkit-clip-path: polygon(50% 45%, 41% 30%, 59% 30%);}
+.yoda .t-3 {-webkit-clip-path: polygon(50% 44%, 39% 68%, 61% 68%);}
+.yoda .t-4 {-webkit-clip-path: polygon(50% 44%, 41% 30%, 31% 44%);}
+.yoda .t-5 {-webkit-clip-path: polygon(50% 44%, 59% 30%, 69% 44%);}
+
+.yoda .t-6 {-webkit-clip-path: polygon(32% 44%, 5% 47%, 31% 59%);}
+.yoda .t-7 {-webkit-clip-path: polygon(28% 49%, 12% 48%, 29% 57%);}
+.yoda .t-8 {-webkit-clip-path: polygon(68% 44%, 95% 47%, 69% 59%);}
+.yoda .t-9 {-webkit-clip-path: polygon(72% 49%, 88% 48%, 71% 57%);}
+.yoda .t-10 {-webkit-clip-path: polygon(31% 44%, 50% 44%, 43% 60%);}
+
+.yoda .t-11 {-webkit-clip-path: polygon(69% 44%, 50% 44%, 57% 60%);}
+.yoda .t-12 {-webkit-clip-path: polygon(31% 44%, 31% 59%, 44% 61%);}
+.yoda .t-13 {-webkit-clip-path: polygon(69% 44%, 69% 59%, 56% 61%);}
+.yoda .t-14 {-webkit-clip-path: polygon(31% 59%, 39% 68%, 43% 60%);}
+.yoda .t-15 {-webkit-clip-path: polygon(69% 59%, 61% 68%, 57% 60%);}
+
+.yoda .t-16 {-webkit-clip-path: polygon(50% 75%, 39% 68%, 61% 68%);}
+.yoda .t-17 {-webkit-clip-path: polygon(38% 53%, 42% 51%, 45% 55%);}
+.yoda .t-18 {-webkit-clip-path: polygon(38% 53%, 39% 55%, 45% 55%);}
+.yoda .t-19 {-webkit-clip-path: polygon(42% 51%, 41% 55%, 44% 54%);}
+.yoda .t-20 {-webkit-clip-path: polygon(62% 53%, 58% 51%, 55% 55%);}
+
+.yoda .t-21 {-webkit-clip-path: polygon(62% 53%, 61% 55%, 55% 55%);}
+.yoda .t-22 {-webkit-clip-path: polygon(58% 51%, 59% 55%, 56% 54%);}
+.yoda .t-23 {-webkit-clip-path: polygon(43% 28%, 42% 30%, 43% 38%);}
+.yoda .t-24 {-webkit-clip-path: polygon(57% 28%, 58% 30%, 57% 38%);}
+.yoda .t-25 {-webkit-clip-path: polygon(47% 27%, 46% 29%, 48% 38%);}
+
+.yoda .t-26 {-webkit-clip-path: polygon(53% 27%, 54% 29%, 52% 38%);}
+.yoda .t-27 {-webkit-clip-path: polygon(50% 42%, 38% 41%, 62% 41%);}
+.yoda .t-28 {-webkit-clip-path: polygon(50% 44%, 40% 43%, 60% 43%);}
+.yoda .t-29 {-webkit-clip-path: polygon(50% 46%, 42% 45%, 58% 45%);}
+.yoda .t-30 {-webkit-clip-path: polygon(50% 48%, 44% 47%, 56% 47%);}
+
+.yoda .t-1,
+.yoda .t-2,
+.yoda .t-3,
+.yoda .t-4,
+.yoda .t-5,
+.yoda .t-6,
+.yoda .t-8,
+.yoda .t-10,
+.yoda .t-11,
+.yoda .t-12,
+.yoda .t-13,
+.yoda .t-14,
+.yoda .t-15,
+.yoda .t-16 {background-color: #99af65;}
+
+.yoda .t-7,
+.yoda .t-9,
+.yoda .t-27,
+.yoda .t-28,
+.yoda .t-29,
+.yoda .t-30 {background-color: #62704d;}
+
+.yoda .t-17,
+.yoda .t-18,
+.yoda .t-20,
+.yoda .t-21,
+.yoda .t-23,
+.yoda .t-24,
+.yoda .t-25,
+.yoda .t-26 {background-color: #FFFFFF;}
+
+.yoda .t-19,
+.yoda .t-22 {background-color: #FFFFFF;}
+
+
+
+
+
+/* Chewbacca */
+
+.chewbacca .t-1 {-webkit-clip-path: polygon(50% 46%, 43% 14%, 57% 14%);}
+.chewbacca .t-2 {-webkit-clip-path: polygon(50% 46%, 43% 14%, 30% 25%);}
+.chewbacca .t-3 {-webkit-clip-path: polygon(50% 46%, 70% 25%, 57% 14%);}
+.chewbacca .t-4 {-webkit-clip-path: polygon(30% 25%, 26% 40%, 45% 40%);}
+.chewbacca .t-5 {-webkit-clip-path: polygon(70% 25%, 74% 40%, 55% 40%);}
+
+.chewbacca .t-6 {-webkit-clip-path: polygon(26% 40%, 26% 60%, 44% 51%);}
+.chewbacca .t-7 {-webkit-clip-path: polygon(74% 40%, 74% 60%, 56% 51%);}
+.chewbacca .t-8 {-webkit-clip-path: polygon(50% 46%, 36% 40%, 44% 51%);}
+.chewbacca .t-9 {-webkit-clip-path: polygon(50% 46%, 64% 40%, 56% 51%);}
+.chewbacca .t-10 {-webkit-clip-path: polygon(26% 40%, 36% 40%, 44% 51%);}
+
+.chewbacca .t-11 {-webkit-clip-path: polygon(74% 40%, 64% 40%, 56% 51%);}
+.chewbacca .t-12 {-webkit-clip-path: polygon(50% 46%, 45% 40%, 47% 45%);}
+.chewbacca .t-13 {-webkit-clip-path: polygon(50% 46%, 55% 40%, 53% 45%);}
+.chewbacca .t-14 {-webkit-clip-path: polygon(36% 40%, 45% 40%, 47% 45%);}
+.chewbacca .t-15 {-webkit-clip-path: polygon(64% 40%, 55% 40%, 53% 45%);}
+
+.chewbacca .t-16 {-webkit-clip-path: polygon(26% 60%, 39% 74%, 44% 51%);}
+.chewbacca .t-17 {-webkit-clip-path: polygon(74% 60%, 61% 74%, 56% 51%);}
+.chewbacca .t-18 {-webkit-clip-path: polygon(26% 60%, 26% 67%, 32% 66%);}
+.chewbacca .t-19 {-webkit-clip-path: polygon(74% 60%, 74% 67%, 68% 66%);}
+.chewbacca .t-20 {-webkit-clip-path: polygon(32% 66%, 39% 74%, 33% 78%);}
+
+.chewbacca .t-21 {-webkit-clip-path: polygon(68% 66%, 61% 74%, 67% 78%);}
+.chewbacca .t-22 {-webkit-clip-path: polygon(50% 90%, 40% 80%, 60% 80%);}
+.chewbacca .t-23 {-webkit-clip-path: polygon(50% 80%, 39% 74%, 40% 80%);}
+.chewbacca .t-24 {-webkit-clip-path: polygon(50% 80%, 61% 74%, 60% 80%);}
+.chewbacca .t-25 {-webkit-clip-path: polygon(50% 80%, 44% 51%, 39% 74%);}
+
+.chewbacca .t-26 {-webkit-clip-path: polygon(50% 80%, 56% 51%, 61% 74%);}
+.chewbacca .t-27 {-webkit-clip-path: polygon(50% 80%, 44% 51%, 56% 51%);}
+.chewbacca .t-28 {-webkit-clip-path: polygon(50% 64%, 45% 58%, 55% 58%);}
+.chewbacca .t-29 {-webkit-clip-path: polygon(50% 55%, 45% 58%, 55% 58%);}
+.chewbacca .t-30 {-webkit-clip-path: polygon(50% 46%, 44% 51%, 56% 51%);}
+
+.chewbacca .t-1,
+.chewbacca .t-8,
+.chewbacca .t-12,
+.chewbacca .t-13,
+.chewbacca .t-20,
+.chewbacca .t-22,
+.chewbacca .t-23,
+.chewbacca .t-25,
+.chewbacca .t-28 {background-color: #c6a68a;}
+
+.chewbacca .t-2,
+.chewbacca .t-6,
+.chewbacca .t-9,
+.chewbacca .t-11,
+.chewbacca .t-17,
+.chewbacca .t-21,
+.chewbacca .t-24,
+.chewbacca .t-27 {background-color: #8e6c52;}
+
+.chewbacca .t-3,
+.chewbacca .t-4,
+.chewbacca .t-5,
+.chewbacca .t-7,
+.chewbacca .t-10,
+.chewbacca .t-16,
+.chewbacca .t-18,
+.chewbacca .t-19,
+.chewbacca .t-26,
+.chewbacca .t-29 {background-color: #6b5344;}
+
+.chewbacca .t-14,
+.chewbacca .t-15,
+.chewbacca .t-30 {background-color: #2c2b2a;}
+
 </style>
+
+<div class="block_trend__animation">
+  <h1>Trend One: Animations are Cool...</h1>
+  <div class="trend">
 <div id="animateMe" class="kyloren">
 
 	<div class="wrapper">
 
 		<div class="console">
 
-			<h1>POLYGONS OF THE GALAXY V</h1>
+			<h1>POLYGONS OF STAR WARS</h1>
 
-			<button id="porg">Porg</button>
-			<button id="leiaorgana">Princess Leia Organa</button>
-			<button id="finn">Finn</button>
-			<button id="kyloren">Kylo Ren</button>
+      <button id="kyloren">Kylo Ren</button>
+      <button id="darthmaul">Darth Maul</button>
+      <button id="stormtrooper">Stormtrooper</button>
+      <button id="bobafett">Boba Fett</button>
+			<button id="darthvader">Darth Vader</button>
+      <button id="r2d2">R2-D2</button>
+      <button id="yoda">Yoda</button>
+      <button id="chewbacca">Chewbacca</button>
 
 		</div>
 
@@ -616,10 +821,15 @@ input {-webkit-appearance: none;} */
 			</div>
 
 			<div class="stage-quote full-width">
-				<h2 class="quote-porg">...</h2>
-				<h2 class="quote-leiaorgana">Help me Obi-wan Kenobi, you're my only hope</h2>
-				<h2 class="quote-finn">I was raised to do one thing, but I've got nothing to fight for</h2>
+
+        <h2 class="quote-stormtrooper">These aren't the droids we're looking for.</h2>
+        <h2 class="quote-bobafett">As you wish.</h2>
 				<h2 class="quote-kyloren">I'll show you the Dark Side</h2>
+        <h2 class="quote-darthvader">I find your lack of faith disturbing.</h2>
+        <h2 class="quote-darthmaul">I should have gotten more screen time.</h2>
+        <h2 class="quote-r2d2">*Beep boop Beep*</h2>
+        <h2 class="quote-yoda">Do or do not. There is no try.</h2>
+        <h2 class="quote-chewbacca">RAWRGWAWGGR</h2>
 			</div>
 
 		</div>
@@ -628,6 +838,11 @@ input {-webkit-appearance: none;} */
 
   </div>
 
+</div>
+<div class="trend_explanation trend_explanation__animation">
+  <p>Explanation goes here.</p>
+</div>
+</div>
 </div>
 
 <script src="<?php echo site_url('/wp-content/themes/shapely-child/animate.js');?>"></script>
