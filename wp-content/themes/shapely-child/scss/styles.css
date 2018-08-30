@@ -150,6 +150,9 @@ button[type="submit"] {
       width: 20%;
       border-radius: 50px;
       box-shadow: 2px 2px 4px #f5f5f5; }
+      .block_trend__animation .trend_two img:hover, .block_trend__organic .trend_two img:hover {
+        transform: scale(1.1);
+        transition: .25s; }
 
 .big_container {
   width: 100%;
@@ -197,5 +200,10 @@ section.content-area {
   width: 30%; }
   .trend_explanation h3 {
     color: #999; }
+
+.stage {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
 /*# sourceMappingURL=styles.css.map */

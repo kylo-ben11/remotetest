@@ -809,7 +809,8 @@
 							<h2 class="quote-r2d2">*Beep boop Beep*</h2>
 							<h2 class="quote-yoda">Do or do not. There is no try.</h2>
 							<h2 class="quote-chewbacca">RAWRGWAWGGR</h2>
-						</div>
+            </div>
+            <p>Check out <a href="https://codepen.io/LloydJames/" target="_blank">Lloyd James'</a> author page for these pens and more.</p>
 					</div>
 				</div>
 			</div>
