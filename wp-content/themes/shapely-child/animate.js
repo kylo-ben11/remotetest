@@ -36,4 +36,6 @@ $(document).ready(function(){
     $("#animateMe").toggleClass("glimmer");
   }, 3000);
 
+
+
 });

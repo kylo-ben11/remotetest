@@ -850,8 +850,8 @@
 	<div class="block_trend__pageTransitions">
 		<h1>Trend Three: All About Those Transitions...</h1>
 		<div class="trend trend_three">
-		<img src="<?= home_url('/wp-content/themes/shapely-child/img/turnkey.gif');?>">
-		<div class="trend_explanation trend_explanation__pageTransitions">
+		<img  class="animated bounceInLeft duration1 eds-on-scroll" src="<?= home_url('/wp-content/themes/shapely-child/img/turnkey.gif');?>">
+		<div class="trend_explanation trend_explanation__pageTransitions  animated bounceInRight duration1  eds-on-scroll">
 			<h3>Birth Orion's sword great turbulent clouds astonishment consciousness Vangelis. Shores of the cosmic ocean cosmic fugue brain is the seed of intelligence rich in mystery rings of Uranus dream of the mind's eye. Emerged into consciousness not a sunrise but a galaxyrise permanence of the stars hydrogen atoms rich in mystery brain is the seed of intelligence. Made in the interiors of collapsing stars the ash of stellar alchemy are creatures of the cosmos encyclopaedia galactica the carbon in our apple pies encyclopaedia galactica and billions upon billions upon billions upon billions upon billions upon billions upon billions.</h3>
 		</div>
 			<div class="trend_rank_importance">
@@ -868,10 +868,10 @@
 	<div class="block_trend__serif">
 		<h1>Trend Four: Serifs Up...</h1>
 		<div class="trend trend_four">
-		<img src="<?= home_url('/wp-content/themes/shapely-child/img/serif.jpg');?>">
 		<div class="trend_explanation trend_explanation__serif">
-			<h3>Birth Orion's sword great turbulent clouds astonishment consciousness Vangelis. Shores of the cosmic ocean cosmic fugue brain is the seed of intelligence rich in mystery rings of Uranus dream of the mind's eye. Emerged into consciousness not a sunrise but a galaxyrise permanence of the stars hydrogen atoms rich in mystery brain is the seed of intelligence. Made in the interiors of collapsing stars the ash of stellar alchemy are creatures of the cosmos encyclopaedia galactica the carbon in our apple pies encyclopaedia galactica and billions upon billions upon billions upon billions upon billions upon billions upon billions.</h3>
+			<h3 class="animated bounceInDown duration1 eds-on-scroll">Birth Orion's sword great turbulent clouds astonishment consciousness Vangelis. Shores of the cosmic ocean cosmic fugue brain is the seed of intelligence rich in mystery rings of Uranus dream of the mind's eye. Emerged into consciousness not a sunrise but a galaxyrise permanence of the stars hydrogen atoms rich in mystery brain is the seed of intelligence. Made in the interiors of collapsing stars the ash of stellar alchemy are creatures of the cosmos encyclopaedia galactica the carbon in our apple pies encyclopaedia galactica and billions upon billions upon billions upon billions upon billions upon billions upon billions.</h3>
 		</div>
+		<img class="animated bounceInDown duration1 eds-on-scroll" src="<?= home_url('/wp-content/themes/shapely-child/img/serif.jpg');?>">
 			<div class="trend_rank_importance">
 				<h3>Importance of this trend:</h3>
 				<div class="slide_rank">
@@ -882,5 +882,23 @@
 			</div>
 		</div>
 	</div>
-<script src="<?php echo site_url('/wp-content/themes/shapely-child/animate.js');?>"></script>
+
+	<div class="block_trend__floatNav">
+		<h1>Trend Five: Floating Navigation...</h1>
+		<div class="trend trend_five">
+		<img class="animated bounceInDown duration1 eds-on-scroll" src="<?= home_url('/wp-content/themes/shapely-child/img/up_arrow.png');?>">
+		<div class="trend_explanation trend_explanation__floatNav">
+			<h3>Birth Orion's sword great turbulent clouds astonishment consciousness Vangelis. Shores of the cosmic ocean cosmic fugue brain is the seed of intelligence rich in mystery rings of Uranus dream of the mind's eye. Emerged into consciousness not a sunrise but a galaxyrise permanence of the stars hydrogen atoms rich in mystery brain is the seed of intelligence. Made in the interiors of collapsing stars the ash of stellar alchemy are creatures of the cosmos encyclopaedia galactica the carbon in our apple pies encyclopaedia galactica and billions upon billions upon billions upon billions upon billions upon billions upon billions.</h3>
+		</div>
+			<div class="trend_rank_importance">
+				<h3>Importance of this trend:</h3>
+				<div class="slide_rank">
+					<div class="slide_rank__inner" style="width:92%;">
+						92%
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<script src="<?php echo home_url('/wp-content/themes/shapely-child/animate.js');?>"></script>
 <?php get_footer(); ?>

@@ -43,6 +43,7 @@
 </footer><!-- #colophon -->
 </div>
 </div><!-- #page -->
+<script src="<?php echo home_url('/wp-content/themes/shapely-child/animateIT.js');?>"></script>
 
 <?php wp_footer(); ?>
 
