@@ -27,10 +27,14 @@
   transition: .2s ease-in-out;
 }
 .console button:hover,
-.porg .console button#porg,
-.leiaorgana .console button#leiaorgana,
-.finn .console button#finn,
-.kyloren .console button#kyloren {
+.darthmaul .console button#darthmaul,
+.stormtrooper .console button#stormtrooper,
+.bobafett .console button#bobafett,
+.kyloren .console button#kyloren,
+.darthvader .console button#darthvader,
+.r2d2 .console button#r2d2,
+.yoda .console button#yoda,
+.chewbacca .console button#chewbacca {
 	background: #FAC223;
 	color: #131313;
 }
@@ -753,97 +757,93 @@
 .chewbacca .t-14,
 .chewbacca .t-15,
 .chewbacca .t-30 {background-color: #2c2b2a;}
-
 </style>
 
-<div class="block_trend__animation">
-  <h1>Trend One: Animations are Cool...</h1>
-  <div class="trend">
-<div id="animateMe" class="kyloren">
-
-	<div class="wrapper">
-
-		<div class="console">
-
-			<h1>POLYGONS OF STAR WARS</h1>
-
-      <button id="kyloren">Kylo Ren</button>
-      <button id="darthmaul">Darth Maul</button>
-      <button id="stormtrooper">Stormtrooper</button>
-      <button id="bobafett">Boba Fett</button>
-			<button id="darthvader">Darth Vader</button>
-      <button id="r2d2">R2-D2</button>
-      <button id="yoda">Yoda</button>
-      <button id="chewbacca">Chewbacca</button>
-
-		</div>
-
-		<div class="stage">
-
-			<div class="main-stage full-width">
-
-				<div class="triangle t-1"></div>
-				<div class="triangle t-2"></div>
-				<div class="triangle t-3"></div>
-				<div class="triangle t-4"></div>
-				<div class="triangle t-5"></div>
-
-				<div class="triangle t-6"></div>
-				<div class="triangle t-7"></div>
-				<div class="triangle t-8"></div>
-				<div class="triangle t-9"></div>
-				<div class="triangle t-10"></div>
-
-				<div class="triangle t-11"></div>
-				<div class="triangle t-12"></div>
-				<div class="triangle t-13"></div>
-				<div class="triangle t-14"></div>
-				<div class="triangle t-15"></div>
-
-				<div class="triangle t-16"></div>
-				<div class="triangle t-17"></div>
-				<div class="triangle t-18"></div>
-				<div class="triangle t-19"></div>
-				<div class="triangle t-20"></div>
-
-				<div class="triangle t-21"></div>
-				<div class="triangle t-22"></div>
-				<div class="triangle t-23"></div>
-				<div class="triangle t-24"></div>
-				<div class="triangle t-25"></div>
-
-				<div class="triangle t-26"></div>
-				<div class="triangle t-27"></div>
-				<div class="triangle t-28"></div>
-				<div class="triangle t-29"></div>
-				<div class="triangle t-30"></div>
-
+	<div class="block_trend__animation">
+		<h1>Trend One: Animations are Cool...</h1>
+		<div class="trend trend_one">
+			<div class="kyloren" id="animateMe">
+				<div class="wrapper">
+					<div class="console">
+						<h1>POLYGONS OF STAR WARS</h1><button id="kyloren">Kylo Ren</button> <button id="darthmaul">Darth Maul</button> <button id="stormtrooper">Stormtrooper</button> <button id="bobafett">Boba Fett</button> <button id="darthvader">Darth Vader</button> <button id="r2d2">R2-D2</button> <button id="yoda">Yoda</button> <button id="chewbacca">Chewbacca</button>
+					</div>
+					<div class="stage">
+						<div class="main-stage full-width">
+							<div class="triangle t-1"></div>
+							<div class="triangle t-2"></div>
+							<div class="triangle t-3"></div>
+							<div class="triangle t-4"></div>
+							<div class="triangle t-5"></div>
+							<div class="triangle t-6"></div>
+							<div class="triangle t-7"></div>
+							<div class="triangle t-8"></div>
+							<div class="triangle t-9"></div>
+							<div class="triangle t-10"></div>
+							<div class="triangle t-11"></div>
+							<div class="triangle t-12"></div>
+							<div class="triangle t-13"></div>
+							<div class="triangle t-14"></div>
+							<div class="triangle t-15"></div>
+							<div class="triangle t-16"></div>
+							<div class="triangle t-17"></div>
+							<div class="triangle t-18"></div>
+							<div class="triangle t-19"></div>
+							<div class="triangle t-20"></div>
+							<div class="triangle t-21"></div>
+							<div class="triangle t-22"></div>
+							<div class="triangle t-23"></div>
+							<div class="triangle t-24"></div>
+							<div class="triangle t-25"></div>
+							<div class="triangle t-26"></div>
+							<div class="triangle t-27"></div>
+							<div class="triangle t-28"></div>
+							<div class="triangle t-29"></div>
+							<div class="triangle t-30"></div>
+						</div>
+						<div class="stage-quote full-width">
+							<h2 class="quote-stormtrooper">These aren't the droids we're looking for.</h2>
+							<h2 class="quote-bobafett">As you wish.</h2>
+							<h2 class="quote-kyloren">I'll show you the Dark Side</h2>
+							<h2 class="quote-darthvader">I find your lack of faith disturbing.</h2>
+							<h2 class="quote-darthmaul">I should have gotten more screen time.</h2>
+							<h2 class="quote-r2d2">*Beep boop Beep*</h2>
+							<h2 class="quote-yoda">Do or do not. There is no try.</h2>
+							<h2 class="quote-chewbacca">RAWRGWAWGGR</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="trend_explanation trend_explanation__animation">
+				<h3>Apollonius of Perga Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium a very small stage in a vast cosmic arena citizens of distant epochs colonies explorations? Made in the interiors of collapsing stars not a sunrise but a galaxyrise paroxysm of global death courage of our questions Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit the sky calls to us and billions upon billions upon billions upon billions upon billions upon billions upon billions.</h3>
 			</div>
 
-			<div class="stage-quote full-width">
-
-        <h2 class="quote-stormtrooper">These aren't the droids we're looking for.</h2>
-        <h2 class="quote-bobafett">As you wish.</h2>
-				<h2 class="quote-kyloren">I'll show you the Dark Side</h2>
-        <h2 class="quote-darthvader">I find your lack of faith disturbing.</h2>
-        <h2 class="quote-darthmaul">I should have gotten more screen time.</h2>
-        <h2 class="quote-r2d2">*Beep boop Beep*</h2>
-        <h2 class="quote-yoda">Do or do not. There is no try.</h2>
-        <h2 class="quote-chewbacca">RAWRGWAWGGR</h2>
+		<div class="trend_rank_importance">
+			<h3>Importance of this trend:</h3>
+			<div class="slide_rank">
+				<div class="slide_rank__inner" style="width:100%;">
+					100%
+				</div>
 			</div>
-
 		</div>
+    </div>
+	</div>
 
-
-
+  <div class="block_trend__organic">
+    <h1>Trend Two: The Organic Movement...</h1>
+    <div class="trend trend_two">
+      <div class="trend_explanation trend_explanation__organic">
+        <h3>Birth Orion's sword great turbulent clouds astonishment consciousness Vangelis. Shores of the cosmic ocean cosmic fugue brain is the seed of intelligence rich in mystery rings of Uranus dream of the mind's eye. Emerged into consciousness not a sunrise but a galaxyrise permanence of the stars hydrogen atoms rich in mystery brain is the seed of intelligence. Made in the interiors of collapsing stars the ash of stellar alchemy are creatures of the cosmos encyclopaedia galactica the carbon in our apple pies encyclopaedia galactica and billions upon billions upon billions upon billions upon billions upon billions upon billions.</h3>
+      </div>
+      <img src="<?= home_url('/wp-content/themes/shapely-child/img/xavier.jpg');?>">
+      <div class="trend_rank_importance">
+  			<h3>Importance of this trend:</h3>
+  			<div class="slide_rank">
+  				<div class="slide_rank__inner" style="width:90%;">
+  					90%
+  				</div>
+  			</div>
+  		</div>
+    </div>
   </div>
-
-</div>
-<div class="trend_explanation trend_explanation__animation">
-  <p>Explanation goes here.</p>
-</div>
-</div>
-</div>
-
 <script src="<?php echo site_url('/wp-content/themes/shapely-child/animate.js');?>"></script>
 <?php get_footer(); ?>
