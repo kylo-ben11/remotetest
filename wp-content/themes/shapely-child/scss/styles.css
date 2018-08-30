@@ -122,37 +122,45 @@ button[type="submit"] {
   .banner_container .banner {
     width: 25%; }
 
-.block_trend__animation, .block_trend__organic {
+.block_trend__animation, .block_trend__organic, .block_trend__pageTransitions, .block_trend__serif {
   background-color: #f5f5f5;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly; }
-  .block_trend__animation h1, .block_trend__organic h1 {
+  .block_trend__animation h1, .block_trend__organic h1, .block_trend__pageTransitions h1, .block_trend__serif h1 {
     text-align: center;
     font-family: "Oswald", "Helvetica Neue", helvetica;
     font-style: italic;
     margin: 80px auto; }
-  .block_trend__animation .trend, .block_trend__organic .trend {
+  .block_trend__animation .trend, .block_trend__organic .trend, .block_trend__pageTransitions .trend, .block_trend__serif .trend {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center; }
-  .block_trend__animation .trend_one, .block_trend__animation .trend_two, .block_trend__organic .trend_one, .block_trend__organic .trend_two {
+  .block_trend__animation .trend_one, .block_trend__animation .trend_two, .block_trend__animation .trend_three, .block_trend__animation .trend_four, .block_trend__organic .trend_one, .block_trend__organic .trend_two, .block_trend__organic .trend_three, .block_trend__organic .trend_four, .block_trend__pageTransitions .trend_one, .block_trend__pageTransitions .trend_two, .block_trend__pageTransitions .trend_three, .block_trend__pageTransitions .trend_four, .block_trend__serif .trend_one, .block_trend__serif .trend_two, .block_trend__serif .trend_three, .block_trend__serif .trend_four {
     background-color: black;
     padding-top: 80px;
     padding-bottom: 80px;
     padding-left: 5%;
     padding-right: 5%; }
-  .block_trend__animation .trend_two, .block_trend__organic .trend_two {
+  .block_trend__animation .trend_two, .block_trend__organic .trend_two, .block_trend__pageTransitions .trend_two, .block_trend__serif .trend_two {
     justify-content: space-evenly; }
-    .block_trend__animation .trend_two img, .block_trend__organic .trend_two img {
+    .block_trend__animation .trend_two img, .block_trend__organic .trend_two img, .block_trend__pageTransitions .trend_two img, .block_trend__serif .trend_two img {
       width: 20%;
       border-radius: 50px;
       box-shadow: 2px 2px 4px #f5f5f5; }
-      .block_trend__animation .trend_two img:hover, .block_trend__organic .trend_two img:hover {
+      .block_trend__animation .trend_two img:hover, .block_trend__organic .trend_two img:hover, .block_trend__pageTransitions .trend_two img:hover, .block_trend__serif .trend_two img:hover {
         transform: scale(1.1);
         transition: .25s; }
+  .block_trend__animation .trend_three, .block_trend__organic .trend_three, .block_trend__pageTransitions .trend_three, .block_trend__serif .trend_three {
+    justify-content: space-evenly; }
+    .block_trend__animation .trend_three img, .block_trend__organic .trend_three img, .block_trend__pageTransitions .trend_three img, .block_trend__serif .trend_three img {
+      width: 40%; }
+  .block_trend__animation .trend_four, .block_trend__organic .trend_four, .block_trend__pageTransitions .trend_four, .block_trend__serif .trend_four {
+    justify-content: space-evenly; }
+    .block_trend__animation .trend_four img, .block_trend__organic .trend_four img, .block_trend__pageTransitions .trend_four img, .block_trend__serif .trend_four img {
+      width: 40%; }
 
 .big_container {
   width: 100%;

@@ -157,7 +157,7 @@ button[type="submit"] {
     width: 25%;
   }
 }
-.block_trend__animation, .block_trend__organic {
+.block_trend__animation, .block_trend__organic, .block_trend__pageTransitions, .block_trend__serif {
   background-color: #f5f5f5;
   width: 100%;
   display:flex;
@@ -176,7 +176,7 @@ button[type="submit"] {
     justify-content: space-between;
     align-items:center;
   }
-  .trend_one, .trend_two {
+  .trend_one, .trend_two, .trend_three, .trend_four {
     background-color: black;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -193,6 +193,18 @@ button[type="submit"] {
         transform: scale(1.1);
         transition:.25s;
       }
+    }
+  }
+  .trend_three {
+    justify-content: space-evenly;
+    img {
+      width: 40%;
+    }
+  }
+  .trend_four {
+    justify-content: space-evenly;
+    img {
+      width: 40%;
     }
   }
 }
