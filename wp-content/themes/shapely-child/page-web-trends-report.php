@@ -113,6 +113,7 @@ input {-webkit-appearance: none;} */
 	margin: 10px 0;
 	font-size: 50px;
 	color: #FAC223;
+  border: 2px solid red;
 }
 .console button {
 	color: #FAC223;
