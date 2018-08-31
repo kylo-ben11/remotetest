@@ -81,4 +81,15 @@ $("#menu-item-91 a").click(function() {
     }, 4000);
 });
 
+//Animated hamburger
+
+  $(".hamburger").click(function(){
+    $(this).toggleClass("is-active");
+  });
+
+  $(".hamburger").click(function(){
+    $('#menu').slideToggle(1000);
+  });
+
+
 });

@@ -51,9 +51,18 @@ if ( 1 == $shapely_transparent_header && $shapely_transparent_header_opacity ) {
 						<div class="module left site-title-container">
 							<?php shapely_get_header_logo(); ?>
 						</div>
-						<div class="module widget-handle mobile-toggle right visible-sm visible-xs">
-							<i class="fa fa-bars"></i>
-						</div>
+						<!-- <div class="module widget-handle mobile-toggle right visible-sm visible-xs"> -->
+							<div class="three col">
+				        <div class="hamburger" id="hamburger-6">
+				          <span class="line"></span>
+				          <span class="line"></span>
+				          <span class="line"></span>
+				        </div>
+				      </div>
+
+
+							<!-- <i class="fa fa-bars"></i> -->
+						<!-- </div> -->
 						<div class="module-group right">
 							<div class="module left">
 								<?php shapely_header_menu(); ?>
