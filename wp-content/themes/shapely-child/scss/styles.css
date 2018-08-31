@@ -1,9 +1,9 @@
-.image-bg .btn.btn-filled {
-  background: #ff6f19;
-  border-color: #ff6f19; }
-  .image-bg .btn.btn-filled:hover {
-    background-color: rgba(255, 111, 25, 0.6);
-    border-color: #ff6f19; }
+.btn.btn-filled {
+  background: #ff6f19 !important;
+  border-color: #ff6f19 !important; }
+  .btn.btn-filled:hover {
+    background-color: #ff6f19 !important;
+    border-color: #ff6f19 !important; }
 
 .top-parallax-section div h1 {
   font-size: 48px; }
@@ -36,17 +36,17 @@ section .pb0 {
   font-style: oblique; }
 
 .module.widget-handle i {
-  color: #ff6f19; }
+  color: #ff6f19 !important; }
 
 button[type="submit"] {
-  background-color: #ff6f19;
-  border: #ff6f19; }
+  background-color: #ff6f19 !important;
+  border: #ff6f19 !important; }
 
 .main-navigation .menu li a {
   padding-right: 20px;
   padding-left: 20px; }
   .main-navigation .menu li a:hover {
-    color: #fff;
+    color: #fff !important;
     background-color: #ff6f19;
     border-radius: 50px;
     transition: .5s; }
@@ -237,13 +237,14 @@ section.content-area {
     margin-top: 20px; }
 
 input[type="submit"] {
-  background-color: #ff6f19;
   font-size: 18px;
   border-radius: 6px !important; }
   input[type="submit"]:hover {
-    border-color: #ff6f19;
-    background-color: #ff6f19 !important;
     transform: scale(1.1) translateY(5px) translateX(12px);
+    transition: .25s;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); }
+
+input[type="text"]:hover, input[type="email"]:hover, textarea:hover {
+  border-color: #ff6f19 !important; }
 
 /*# sourceMappingURL=styles.css.map */

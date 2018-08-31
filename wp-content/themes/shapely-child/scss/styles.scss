@@ -1,14 +1,14 @@
 //styles.scss
-.image-bg {
+// .image-bg {
   .btn.btn-filled {
-    background: #ff6f19;
-    border-color: #ff6f19;
+    background: #ff6f19!important;
+    border-color: #ff6f19!important;
     &:hover {
-      background-color: rgba(255,111,25, .6);
-      border-color: #ff6f19;
+      background-color: #ff6f19!important;
+      border-color: #ff6f19!important;
     }
   }
-}
+// }
 
 .top-parallax-section {
   div {
@@ -53,11 +53,11 @@
     font-style: oblique;
   }
 .module.widget-handle i {
-  color: #ff6f19;
+  color: #ff6f19!important;
 }
 button[type="submit"] {
-  background-color: #ff6f19;
-  border: #ff6f19;
+  background-color: #ff6f19!important;
+  border: #ff6f19!important;
 }
 .main-navigation {
   .menu li {
@@ -65,7 +65,7 @@ button[type="submit"] {
       padding-right: 20px;
       padding-left: 20px;
       &:hover {
-        color: #fff;
+        color: #fff!important;
         background-color: #ff6f19;
         border-radius: 50px;
         transition: .5s;
@@ -299,14 +299,16 @@ section.content-area {
 }
 
 input[type="submit"]{
-  background-color: #ff6f19;
   font-size:18px;
   border-radius:6px!important;
   &:hover {
-    border-color: #ff6f19;
-    background-color: #ff6f19!important;
     transform: scale(1.1) translateY(5px) translateX(12px);
+    transition: .25s;
     box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
   }
-
+}
+input[type="text"], input[type="email"], textarea{
+  &:hover {
+    border-color: #ff6f19!important;
+  }
 }
