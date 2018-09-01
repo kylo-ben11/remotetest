@@ -1,4 +1,6 @@
 //styles.scss
+$orange : #ff6f19;
+
 // .image-bg {
   .btn.btn-filled {
     background: #ff6f19!important;
@@ -367,6 +369,24 @@ input[type="text"], input[type="email"], textarea{
   -ms-transform: translateY(-13px) rotate(90deg);
   -o-transform: translateY(-13px) rotate(90deg);
   transform: translateY(-13px) rotate(90deg);
+}
+
+input.wpcf7-form-control.wpcf7-submit.btn.btn-lg.btn-filled {
+  &:hover {
+    background: $orange!important;
+    border-color: $orange!important;
+  }
+}
+textarea.wpcf7-form-control.wpcf7-textarea:hover, input.wpcf7-form-control.wpcf7-text:hover {
+  border-color:$orange!important;
+}
+a.btn.btn-lg.btn-filled:hover {
+  background: $orange!important;
+  border-color: $orange!important;
+}
+a.btn.btn-sm.fade-half.back-to-top.inner-link:hover {
+  background-color: $orange!important;
+  border-color: $orange!important;
 }
 
 @media only screen and (max-width: 991px){

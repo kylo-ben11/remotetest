@@ -297,6 +297,21 @@ input[type="text"]:hover, input[type="email"]:hover, textarea:hover {
   -o-transform: translateY(-13px) rotate(90deg);
   transform: translateY(-13px) rotate(90deg); }
 
+input.wpcf7-form-control.wpcf7-submit.btn.btn-lg.btn-filled:hover {
+  background: #ff6f19 !important;
+  border-color: #ff6f19 !important; }
+
+textarea.wpcf7-form-control.wpcf7-textarea:hover, input.wpcf7-form-control.wpcf7-text:hover {
+  border-color: #ff6f19 !important; }
+
+a.btn.btn-lg.btn-filled:hover {
+  background: #ff6f19 !important;
+  border-color: #ff6f19 !important; }
+
+a.btn.btn-sm.fade-half.back-to-top.inner-link:hover {
+  background-color: #ff6f19 !important;
+  border-color: #ff6f19 !important; }
+
 @media only screen and (max-width: 991px) {
   #menu {
     text-align: center; }
