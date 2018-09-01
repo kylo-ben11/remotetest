@@ -298,17 +298,22 @@ input[type="text"]:hover, input[type="email"]:hover, textarea:hover {
   transform: translateY(-13px) rotate(90deg); }
 
 @media only screen and (max-width: 991px) {
+  #menu {
+    text-align: center; }
+    #menu i {
+      color: #ff6f19; }
+
   .hamburger .line {
     display: block; }
-
-  .nav-bar .flex-row {
-    padding-top: 20px; }
 
   .main-navigation .menu .menu-item {
     text-align: center; }
     .main-navigation .menu .menu-item a {
       font-size: 24px; }
       .main-navigation .menu .menu-item a:hover {
-        color: #ff6f19; } }
+        color: #ff6f19; }
+
+  #socialLink {
+    display: none; } }
 
 /*# sourceMappingURL=styles.css.map */

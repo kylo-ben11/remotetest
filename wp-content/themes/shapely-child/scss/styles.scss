@@ -370,14 +370,16 @@ input[type="text"], input[type="email"], textarea{
 }
 
 @media only screen and (max-width: 991px){
+  #menu {
+    text-align:center;
+    i {
+      color: #ff6f19;
+    }
+  }
   .hamburger .line {
     display: block;
   }
-  .nav-bar {
-    .flex-row {
-    padding-top: 20px;
-    }
-  }
+
   .main-navigation {
     .menu {
       .menu-item {
@@ -391,5 +393,8 @@ input[type="text"], input[type="email"], textarea{
       }
     }
   }
+#socialLink {
+  display:none;
+}
 
 }

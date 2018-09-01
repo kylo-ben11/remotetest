@@ -88,7 +88,11 @@ $("#menu-item-91 a").click(function() {
   });
 
   $(".hamburger").click(function(){
-    $('#menu').slideToggle(1000);
+    $('#menu').slideToggle(500);
+  });
+
+  $('.hamburger').one("click", function() {
+    $('#menu').prepend('<a href="https://www.linkedin.com/in/benjamin-knier" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>');
   });
 
 

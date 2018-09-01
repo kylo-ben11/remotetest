@@ -51,7 +51,6 @@ if ( 1 == $shapely_transparent_header && $shapely_transparent_header_opacity ) {
 						<div class="module left site-title-container">
 							<?php shapely_get_header_logo(); ?>
 						</div>
-						<!-- <div class="module widget-handle mobile-toggle right visible-sm visible-xs"> -->
 							<div class="three col">
 				        <div class="hamburger" id="hamburger-6">
 				          <span class="line"></span>
@@ -61,23 +60,16 @@ if ( 1 == $shapely_transparent_header && $shapely_transparent_header_opacity ) {
 				      </div>
 
 
-							<!-- <i class="fa fa-bars"></i> -->
-						<!-- </div> -->
 						<div class="module-group right">
 							<div class="module left">
 								<?php shapely_header_menu(); ?>
 							</div>
 							<!--end of menu module-->
-							<div class="module widget-handle search-widget-handle hidden-xs hidden-sm">
+							<div class="module widget-handle search-widget-handle" id="socialLink">
 								<div class="search">
-									<i class="fa fa-search"></i>
-									<span class="title"><?php esc_html_e( 'Site Search', 'shapely' ); ?></span>
+									<a href="https://www.linkedin.com/in/benjamin-knier" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
 								</div>
-								<div class="function">
-									<?php
-									get_search_form();
-									?>
-								</div>
+
 							</div>
 						</div>
 						<!--end of module group-->
