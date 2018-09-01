@@ -1,6 +1,14 @@
 //styles.scss
 $orange : #ff6f19;
 
+@font-face {
+  font-family: codeC;
+  src: url(html5_values.ttf);
+}
+.footer-credits p {
+  font-family: codeC, Helvetica Neue, Helvetica;
+  font-size: 24px;
+}
 // .image-bg {
   .btn.btn-filled {
     background: #ff6f19!important;
@@ -388,7 +396,15 @@ a.btn.btn-sm.fade-half.back-to-top.inner-link:hover {
   background-color: $orange!important;
   border-color: $orange!important;
 }
+.citation {
+  color: $orange;
+  &:visited, &:hover, &:active,{
+    color: $orange;
+  }
+}
 
+
+//MEDIA QUERIES
 @media only screen and (max-width: 991px){
   #menu {
     text-align:center;

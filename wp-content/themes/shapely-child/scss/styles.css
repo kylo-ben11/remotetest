@@ -1,3 +1,10 @@
+@font-face {
+  font-family: codeC;
+  src: url(html5_values.ttf); }
+.footer-credits p {
+  font-family: codeC, Helvetica Neue, Helvetica;
+  font-size: 24px; }
+
 .btn.btn-filled {
   background: #ff6f19 !important;
   border-color: #ff6f19 !important; }
@@ -311,6 +318,11 @@ a.btn.btn-lg.btn-filled:hover {
 a.btn.btn-sm.fade-half.back-to-top.inner-link:hover {
   background-color: #ff6f19 !important;
   border-color: #ff6f19 !important; }
+
+.citation {
+  color: #ff6f19; }
+  .citation:visited, .citation:hover, .citation:active {
+    color: #ff6f19; }
 
 @media only screen and (max-width: 991px) {
   #menu {

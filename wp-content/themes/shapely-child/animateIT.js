@@ -22,6 +22,7 @@ function() {
   $(this).removeClass('animated rubberBand duration2  eds-on-hover');
 })
 
+
 //Animate Nav and Contact Buttons
 $('.main-navigation .menu li a').hover(function() {
     $(this).addClass('animated jello duration1  eds-on-hover');

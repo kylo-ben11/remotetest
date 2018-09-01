@@ -815,7 +815,7 @@
 				</div>
 			</div>
 			<div class="trend_explanation trend_explanation__animation">
-				<h3>Apollonius of Perga Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium a very small stage in a vast cosmic arena citizens of distant epochs colonies explorations? Made in the interiors of collapsing stars not a sunrise but a galaxyrise paroxysm of global death courage of our questions Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit the sky calls to us and billions upon billions upon billions upon billions upon billions upon billions upon billions.</h3>
+				<h3>Animations give users the opportunity to interact and to be interacted with by a webpage. Things like the polygons example to the left encourage your site's visitors to stay and play, which keeps them on your site. The playful interactions enhance the user's experience, but they can also be functional. For instance, if you're trying to make certain elements stand out, you can make them wiggle or highlight as you scroll by the page. The possiblities are limited only to your imagination. Some newer trends like unexpected scrolling rate are intriguing as well, but I haven't had the time to play around with it yet. You can see a neat example of it <a href="http://annaeshwood.com/" target="_blank">here</a>. At any rate, animations as a trend are becoming increasingly prevalent, we just need to toe the line between unique and overwhelming. I say they're here to stay (<a class="citation" href="https://webflow.com/blog/19-web-design-trends-for-2018" target="_blank">Williams, 2017</a>)!</h3>
 			</div>
 
 		<div class="trend_rank_importance">
@@ -833,14 +833,14 @@
     <h1>Trend Two: The Organic Movement...</h1>
     <div class="trend trend_two">
       <div class="trend_explanation trend_explanation__organic">
-        <h3>Birth Orion's sword great turbulent clouds astonishment consciousness Vangelis. Shores of the cosmic ocean cosmic fugue brain is the seed of intelligence rich in mystery rings of Uranus dream of the mind's eye. Emerged into consciousness not a sunrise but a galaxyrise permanence of the stars hydrogen atoms rich in mystery brain is the seed of intelligence. Made in the interiors of collapsing stars the ash of stellar alchemy are creatures of the cosmos encyclopaedia galactica the carbon in our apple pies encyclopaedia galactica and billions upon billions upon billions upon billions upon billions upon billions upon billions.</h3>
+        <h3>The use of more organic and oblique shapes is a movement taking the web back to nature. Well, sort of. You see in nature there are very few, if any, straight lines. On the web, straight lines have dominated the scene since its inception. With the advancement of styling languages like CSS, we developers now have the opportunity to shake things up, and that's just what the majority of developers are doing. Things like a border radius have become <i>INCREDIBLY</i> popular (even <a href="https://espn.go.com" style="color:"><img style="border-radius:0px;box-shadow:none;width:12%;" src="<?= home_url('/wp-content/themes/shapely-child/img/logo-espn-82x20.png');?>" alt="ESPN logo"></a> is using them on their site). For that reason, I believe that this trend is here to stay, and that's why I gave it a high importance ranking (<a class="citation" href="https://webflow.com/blog/19-web-design-trends-for-2018" target="_blank">Williams, 2017</a>).</h3>
       </div>
-      <img src="<?= home_url('/wp-content/themes/shapely-child/img/xavier.jpg');?>">
+      <img src="<?= home_url('/wp-content/themes/shapely-child/img/xavier.jpg');?>" alt="cutest kid in the world">
       <div class="trend_rank_importance">
   			<h3>Importance of this trend:</h3>
   			<div class="slide_rank">
-  				<div class="slide_rank__inner" style="width:83%;">
-  					83%
+  				<div class="slide_rank__inner" style="width:88%;">
+  					88%
   				</div>
   			</div>
   		</div>
@@ -850,9 +850,9 @@
 	<div class="block_trend__pageTransitions">
 		<h1>Trend Three: All About Those Transitions...</h1>
 		<div class="trend trend_three">
-		<img  class="animated bounceInLeft duration1 eds-on-scroll" src="<?= home_url('/wp-content/themes/shapely-child/img/turnkey.gif');?>">
+		<img  class="animated bounceInLeft duration1 eds-on-scroll" src="<?= home_url('/wp-content/themes/shapely-child/img/transition.gif');?>" alt="transitions gif">
 		<div class="trend_explanation trend_explanation__pageTransitions  animated bounceInRight duration1  eds-on-scroll">
-			<h3>Birth Orion's sword great turbulent clouds astonishment consciousness Vangelis. Shores of the cosmic ocean cosmic fugue brain is the seed of intelligence rich in mystery rings of Uranus dream of the mind's eye. Emerged into consciousness not a sunrise but a galaxyrise permanence of the stars hydrogen atoms rich in mystery brain is the seed of intelligence. Made in the interiors of collapsing stars the ash of stellar alchemy are creatures of the cosmos encyclopaedia galactica the carbon in our apple pies encyclopaedia galactica and billions upon billions upon billions upon billions upon billions upon billions upon billions.</h3>
+			<h3>Page transitions are a fantastic way to draw attention to the content (you noticed this flying in didn't you?). They're a great break from the old tradition of clicking and waiting for content to flash into the viewport and add a nice flow and polish to a site. This trend is picking up steam and I believe it's here to stay. It will definitely enhance UX, and therefore businesses will want to exploit this new tactic (happy users = more $$$) (<a class="citation" href="https://webflow.com/blog/19-web-design-trends-for-2018" target="_blank">Williams, 2017</a>).</h3>
 		</div>
 			<div class="trend_rank_importance">
 				<h3>Importance of this trend:</h3>
@@ -869,9 +869,9 @@
 		<h1>Trend Four: Serifs Up...</h1>
 		<div class="trend trend_four">
 		<div class="trend_explanation trend_explanation__serif">
-			<h3 class="animated bounceInDown duration1 eds-on-scroll">Birth Orion's sword great turbulent clouds astonishment consciousness Vangelis. Shores of the cosmic ocean cosmic fugue brain is the seed of intelligence rich in mystery rings of Uranus dream of the mind's eye. Emerged into consciousness not a sunrise but a galaxyrise permanence of the stars hydrogen atoms rich in mystery brain is the seed of intelligence. Made in the interiors of collapsing stars the ash of stellar alchemy are creatures of the cosmos encyclopaedia galactica the carbon in our apple pies encyclopaedia galactica and billions upon billions upon billions upon billions upon billions upon billions upon billions.</h3>
+			<h3 class="animated bounceInDown duration1 eds-on-scroll">Sans-serif, sans-serif, sans-serif. For years developers have had to stay away from the flamboyant likes of a serif font in favor of the readability of sans-serif fonts. No more! Now that 4k and retina displays have developed and saturated the market, the serif font can have its day. Is it hugely important in the grand scheme of things? Not really. But some brands are well known for their logo's font, and it's nice to know that you'll be able to implement them going forward. I don't know how much of an impact this trend will have, but there's no reason why it would go away (<a class="citation" href="https://webflow.com/blog/19-web-design-trends-for-2018" target="_blank">Williams, 2017</a>).</h3>
 		</div>
-		<img class="animated bounceInDown duration1 eds-on-scroll" src="<?= home_url('/wp-content/themes/shapely-child/img/serif.jpg');?>">
+		<img class="animated bounceInDown duration1 eds-on-scroll" src="<?= home_url('/wp-content/themes/shapely-child/img/serif.jpg');?>" alt="serif vs. sans-serif fonts">
 			<div class="trend_rank_importance">
 				<h3>Importance of this trend:</h3>
 				<div class="slide_rank">
@@ -886,9 +886,9 @@
 	<div class="block_trend__floatNav">
 		<h1>Trend Five: Floating Navigation...</h1>
 		<div class="trend trend_five">
-		<img class="animated bounceInDown duration1 eds-on-scroll" src="<?= home_url('/wp-content/themes/shapely-child/img/up_arrow.png');?>">
+		<img class="animated bounceInDown duration1 eds-on-scroll" src="<?= home_url('/wp-content/themes/shapely-child/img/up_arrow.png');?>" alt="arrow pointing to navigation bar">
 		<div class="trend_explanation trend_explanation__floatNav">
-			<h3>Birth Orion's sword great turbulent clouds astonishment consciousness Vangelis. Shores of the cosmic ocean cosmic fugue brain is the seed of intelligence rich in mystery rings of Uranus dream of the mind's eye. Emerged into consciousness not a sunrise but a galaxyrise permanence of the stars hydrogen atoms rich in mystery brain is the seed of intelligence. Made in the interiors of collapsing stars the ash of stellar alchemy are creatures of the cosmos encyclopaedia galactica the carbon in our apple pies encyclopaedia galactica and billions upon billions upon billions upon billions upon billions upon billions upon billions.</h3>
+			<h3>Having your navigation stick to the top or side of the page, or "float", just makes sense from a UX standpoint. How many times have you gone to a website, scrolled down the content, and gotten annoyed that you had to scroll all the way back to the top to navigate to a new page? I know I've been there. That's why I stuck this navigation bar to the top of the viewport (see arrrow). I feel that this trend is crucial for a better user experience, and so I rank it's importance high, and I'm sure that it is here to stay (<a class="citation" href="https://webflow.com/blog/19-web-design-trends-for-2018" target="_blank">Williams, 2017</a>).</h3>
 		</div>
 			<div class="trend_rank_importance">
 				<h3>Importance of this trend:</h3>
