@@ -102,7 +102,6 @@ if ( ! function_exists( 'shapely_header_menu' ) ) :
 				'theme_location'  => 'primary',
 				'depth'           => 0,
 				'container'       => 'div',
-				'container_class' => 'collapse navbar-collapse navbar-ex1-collapse',
 				'menu_class'      => 'menu',
 				'fallback_cb'     => 'Wp_Bootstrap_Navwalker::fallback',
 				'walker'          => new Wp_Bootstrap_Navwalker(),

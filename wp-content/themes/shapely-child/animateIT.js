@@ -81,4 +81,19 @@ $("#menu-item-91 a").click(function() {
     }, 4000);
 });
 
+//Animated hamburger
+
+  $(".hamburger").click(function(){
+    $(this).toggleClass("is-active");
+  });
+
+  $(".hamburger").click(function(){
+    $('#menu').slideToggle(500);
+  });
+
+  $('.hamburger').one("click", function() {
+    $('#menu').prepend('<a href="https://www.linkedin.com/in/benjamin-knier" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>');
+  });
+
+//Try and kick the server
 });

@@ -30,11 +30,11 @@
 					<?php echo wp_kses_post( get_theme_mod( 'shapely_footer_copyright' ) ); ?>
 				</div>
 				<div class="footer-credits">
-					<?php shapely_footer_info(); ?>
+					<p> &copy; <?= date("Y");?> Code Creative Web Development</p>
 				</div>
 			</div><!-- .site-info -->
 			<div class="col-sm-6 text-right">
-				<?php shapely_social_icons(); ?>
+				<a href="https://www.linkedin.com/in/benjamin-knier" target="_blank"><i style="color:#ff6f19;" class="fa fa-linkedin-square fa-3x animated jello eds-on-hover"></i></a>
 			</div>
 		</div>
 	</div>

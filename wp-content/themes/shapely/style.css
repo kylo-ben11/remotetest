@@ -1654,7 +1654,6 @@ nav.fixed.scrolled {
 }
 
 .module.widget-handle i {
-	font-size: 14px;
 	line-height: 53px;
 	opacity: 1;
 	transition: all 0.3s ease;

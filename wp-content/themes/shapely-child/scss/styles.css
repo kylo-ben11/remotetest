@@ -1,3 +1,10 @@
+@font-face {
+  font-family: codeC;
+  src: url(html5_values.ttf); }
+.footer-credits p {
+  font-family: codeC, Helvetica Neue, Helvetica;
+  font-size: 24px; }
+
 .btn.btn-filled {
   background: #ff6f19 !important;
   border-color: #ff6f19 !important; }
@@ -246,5 +253,94 @@ input[type="submit"] {
 
 input[type="text"]:hover, input[type="email"]:hover, textarea:hover {
   border-color: #ff6f19 !important; }
+
+.masonryFlyIn {
+  display: flex;
+  flex-wrap: wrap; }
+
+.hamburger .line {
+  width: 50px;
+  height: 5px;
+  background-color: #ff6f19;
+  display: none;
+  margin: 8px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+.hamburger:hover {
+  cursor: pointer; }
+
+#hamburger-6.is-active {
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition-delay: 0.6s;
+  -o-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+#hamburger-6.is-active .line:nth-child(2) {
+  width: 0px; }
+
+#hamburger-6.is-active .line:nth-child(1),
+#hamburger-6.is-active .line:nth-child(3) {
+  -webkit-transition-delay: 0.3s;
+  -o-transition-delay: 0.3s;
+  transition-delay: 0.3s; }
+
+#hamburger-6.is-active .line:nth-child(1) {
+  -webkit-transform: translateY(13px);
+  -ms-transform: translateY(13px);
+  -o-transform: translateY(13px);
+  transform: translateY(13px); }
+
+#hamburger-6.is-active .line:nth-child(3) {
+  -webkit-transform: translateY(-13px) rotate(90deg);
+  -ms-transform: translateY(-13px) rotate(90deg);
+  -o-transform: translateY(-13px) rotate(90deg);
+  transform: translateY(-13px) rotate(90deg); }
+
+input.wpcf7-form-control.wpcf7-submit.btn.btn-lg.btn-filled:hover {
+  background: #ff6f19 !important;
+  border-color: #ff6f19 !important; }
+
+textarea.wpcf7-form-control.wpcf7-textarea:hover, input.wpcf7-form-control.wpcf7-text:hover {
+  border-color: #ff6f19 !important; }
+
+a.btn.btn-lg.btn-filled:hover {
+  background: #ff6f19 !important;
+  border-color: #ff6f19 !important; }
+
+a.btn.btn-sm.fade-half.back-to-top.inner-link:hover {
+  background-color: #ff6f19 !important;
+  border-color: #ff6f19 !important; }
+
+.citation {
+  color: #ff6f19; }
+  .citation:visited, .citation:hover, .citation:active {
+    color: #ff6f19; }
+
+@media only screen and (max-width: 991px) {
+  #menu {
+    text-align: center; }
+    #menu i {
+      color: #ff6f19; }
+
+  .hamburger .line {
+    display: block; }
+
+  .main-navigation .menu .menu-item {
+    text-align: center; }
+    .main-navigation .menu .menu-item a {
+      font-size: 24px; }
+      .main-navigation .menu .menu-item a:hover {
+        color: #ff6f19; }
+
+  #socialLink {
+    display: none; } }
 
 /*# sourceMappingURL=styles.css.map */
