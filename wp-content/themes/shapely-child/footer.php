@@ -34,7 +34,7 @@
 				</div>
 			</div><!-- .site-info -->
 			<div class="col-sm-6 text-right">
-				<a href="https://www.linkedin.com/in/benjamin-knier" target="_blank"><i class="fa fa-linkedin-square fa-2x animated jello eds-on-hover"></i></a>
+				<a href="https://www.linkedin.com/in/benjamin-knier" target="_blank"><i style="color:#ff6f19;" class="fa fa-linkedin-square fa-3x animated jello eds-on-hover"></i></a>
 			</div>
 		</div>
 	</div>

@@ -67,7 +67,7 @@ if ( 1 == $shapely_transparent_header && $shapely_transparent_header_opacity ) {
 							<!--end of menu module-->
 							<div class="module widget-handle search-widget-handle" id="socialLink">
 								<div class="search">
-									<a href="https://www.linkedin.com/in/benjamin-knier" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+									<a href="https://www.linkedin.com/in/benjamin-knier" target="_blank"><i class="fa fa-linkedin-square fa-2x animated jello duration1 eds-on-hover"></i></a>
 								</div>
 
 							</div>
