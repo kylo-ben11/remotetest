@@ -94,6 +94,19 @@ if ( 1 == $shapely_transparent_header && $shapely_transparent_header_opacity ) {
 	    <span>2018</span>
 	  </div>
 	</div></div>';
+
+}elseif (is_page(95)){
+	echo '<div class="banner_container"><div class="banner">
+		<div class="line">
+			<span>Web Design</span>
+		</div>
+		<div class="line">
+			<span>Trends for</span>
+		</div>
+		<div class="line">
+			<span>2018</span>
+		</div>
+	</div></div>';
 } else {
 	echo shapely_top_callout();
 }
